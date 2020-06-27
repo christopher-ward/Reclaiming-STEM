@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+/* header .bars {
+  font-size: 1.25rem;
+} */
+
+header .mobile-logo {
+  width: 75%;
+}
+
+/* header .search {
+  font-size: 1.25rem;
+} */
+
+/* main {
+  height: 90vh;
+} */
+
+main .main-banner {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+main .main-banner img {
+  width: 90%;
+}
+
+main .conf {
+  padding: 10px 20px;
+  color: #fff;
+}
+
+main .conf.conf-about {
+  padding: 20px;
+  background-color: #ba742c;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.conf-about h1 {
+  margin: 0;
+}
+
+div.conf-agenda {
+  background-color: #6e9284;
+}
+
+.conf-agenda .day-head {
+  display: flex;
+  align-items: center;
+}
+
+.day-head span {
+  padding-left: 10px;
+}
+
+.agenda-item .time {
+  border-left: 5px solid black;
+}
+
+.agenda-item .time span {
+  padding-left: 10px;
+}
+
+.agenda-item h4 {
+  margin: 0.5rem 0;
+}
+
+.agenda-item p {
+  margin: 0;
+  margin-bottom: 2rem
+}
+
+div.apply {
+  background-color: #7d7c4c;
+}
+
+div.donors {
+  background-color: #ba5946;
+}
+
+div.about-us {
+  background-color:#dbb052;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+footer .twitter {
+  height: 40px;
+  width: auto;
+}
+
+footer .patreon-logo {
+  height: 20px;
+  width: auto;
+}
