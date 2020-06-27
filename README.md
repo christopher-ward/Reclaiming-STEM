@@ -1,2 +1,2 @@
-# Reclaiming-Stem
+# Reclaiming-STEM
 Reclaiming STEM Landing Page
