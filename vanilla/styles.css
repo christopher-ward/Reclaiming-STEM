@@ -59,9 +59,23 @@ div.conf-agenda {
   background-color: #6e9284;
 }
 
+.agenda {
+  display: flex;
+  justify-content: center;
+}
+
+.agenda h2 {
+  font-size: 1.75rem;
+}
+
 .conf-agenda .day-head {
   display: flex;
   align-items: center;
+}
+
+.day-head h3 {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
 }
 
 .day-head span {
@@ -69,11 +83,35 @@ div.conf-agenda {
 }
 
 .agenda-item .time {
-  border-left: 5px solid black;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 16px;
+}
+
+.agenda-day {
+  margin-bottom: 2rem;
+}
+
+.agenda-content {
+  margin-top: 1rem;
+}
+
+.agenda-item .time-shape {
+  background-color: #484848;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.time .fa {
+  padding-top: 4px;
+  font-size: 1.15rem;
 }
 
 .agenda-item .time span {
-  padding-left: 10px;
+  padding-left: 9px;
 }
 
 .agenda-item h4 {
@@ -82,7 +120,11 @@ div.conf-agenda {
 
 .agenda-item p {
   margin: 0;
-  margin-bottom: 2rem
+  margin-bottom: 1rem
+}
+
+.agenda-item h4, .agenda-item p {
+  margin-left: 16px;
 }
 
 div.apply {
