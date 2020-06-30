@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 header {
   background-color: #fff;
@@ -12,9 +12,9 @@ header {
 header .mobile-logo {
   width: 75%;
 }
-  /*********************/
- /**** MAIN BANNER ****/
-/*********************/
+  /* ///////////////////// */
+ /* //// MAIN BANNER //// */
+/* ///////////////////// */
 main .main-banner {
   background-color: #fff;
   display: flex;
@@ -38,9 +38,9 @@ main .conf.conf-about {
 .conf-about h1 {
   margin: 0;
 }
-  /****************/
- /**** AGENDA ****/
-/****************/
+  /* **************** */
+ /* **** AGENDA **** */
+/* **************** */
 div.conf-agenda {
   background-color: #6e9284;
 }
@@ -98,12 +98,29 @@ div.conf-agenda {
 .agenda-item h4, .agenda-item p {
   margin-left: 16px;
 }
-  /***************/
- /**** APPLY ****/
-/***************/
+/* \\\\\\\\\\\\\\\ */
+ /* \\\\ APPLY \\\\ */
+  /* \\\\\\\\\\\\\\\ */
 div.apply {
+  height: 12rem;
   background-color: #7d7c4c;
 }
+.apply button {
+  height: 2.5rem;
+  width: 60%;
+  background-color: #484848;
+  color: #fff;
+  transform: translate(4rem, 2rem);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 16px;
+  border: 2px solid #899b51;
+  cursor: pointer;
+}
+/* |||||||||||||||| */
+/* **** DONORS **** */
+/* |||||||||||||||| */
 div.donors {
   background-color: #ba5946;
 }
