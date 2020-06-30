@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: 'Montserrat';
 }
-
 header {
   background-color: #fff;
   display: flex;
@@ -10,39 +9,25 @@ header {
   align-items: center;
   height: 10vh;
 }
-
-/* header .bars {
-  font-size: 1.25rem;
-} */
-
 header .mobile-logo {
   width: 75%;
 }
-
-/* header .search {
-  font-size: 1.25rem;
-} */
-
-/* main {
-  height: 90vh;
-} */
-
+  /*********************/
+ /**** MAIN BANNER ****/
+/*********************/
 main .main-banner {
   background-color: #fff;
   display: flex;
   justify-content: center;
   width: 100%;
 }
-
 main .main-banner img {
   width: 90%;
 }
-
 main .conf {
   padding: 10px 20px;
   color: #fff;
 }
-
 main .conf.conf-about {
   padding: 20px;
   background-color: #ba742c;
@@ -50,53 +35,45 @@ main .conf.conf-about {
   text-align: center;
   line-height: 1.5rem;
 }
-
 .conf-about h1 {
   margin: 0;
 }
-
+  /****************/
+ /**** AGENDA ****/
+/****************/
 div.conf-agenda {
   background-color: #6e9284;
 }
-
 .agenda {
   display: flex;
   justify-content: center;
 }
-
 .agenda h2 {
   font-size: 1.75rem;
 }
-
 .conf-agenda .day-head {
   display: flex;
   align-items: center;
 }
-
 .day-head h3 {
   font-size: 1.4rem;
   margin: 0.5rem 0;
 }
-
 .day-head span {
   padding-left: 10px;
 }
-
 .agenda-item .time {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
   border-radius: 16px;
 }
-
 .agenda-day {
   margin-bottom: 2rem;
 }
-
 .agenda-content {
   margin-top: 1rem;
 }
-
 .agenda-item .time-shape {
   background-color: #484848;
   width: 15px;
@@ -104,53 +81,45 @@ div.conf-agenda {
   margin-left: 5px;
   border-radius: 50%;
 }
-
 .time .fa {
   padding-top: 4px;
   font-size: 1.15rem;
 }
-
 .agenda-item .time span {
   padding-left: 9px;
 }
-
 .agenda-item h4 {
   margin: 0.5rem 0;
 }
-
 .agenda-item p {
   margin: 0;
   margin-bottom: 1rem
 }
-
 .agenda-item h4, .agenda-item p {
   margin-left: 16px;
 }
-
+  /***************/
+ /**** APPLY ****/
+/***************/
 div.apply {
   background-color: #7d7c4c;
 }
-
 div.donors {
   background-color: #ba5946;
 }
-
 div.about-us {
   background-color:#dbb052;
 }
-
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 100vw;
 }
-
 footer .twitter {
   height: 40px;
   width: auto;
 }
-
 footer .patreon-logo {
   height: 20px;
   width: auto;
