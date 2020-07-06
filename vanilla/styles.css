@@ -42,7 +42,7 @@ main .conf.conf-about {
  /* **** AGENDA **** */
 /* **************** */
 div.conf-agenda {
-  background-color: #6e9284;
+  background-color: #ba5946;
 }
 .agenda {
   display: flex;
@@ -137,7 +137,7 @@ div.apply {
 /* **** DONORS **** */
 /* |||||||||||||||| */
 div.donors {
-  background-color: #ba5946;
+  background-color: #899b51;
 }
 div.about-us {
   background-color:#dbb052;
