@@ -12,9 +12,9 @@ header {
 header .mobile-logo {
   width: 75%;
 }
-  /* ///////////////////// */
- /* //// MAIN BANNER //// */
-/* ///////////////////// */
+  /* /////////////////// */
+ /*  // Main Banner //  */
+/* /////////////////// */
 main .main-banner {
   background-color: #fff;
   display: flex;
@@ -38,9 +38,9 @@ main .conf.conf-about {
 .conf-about h1 {
   margin: 0;
 }
-  /* **************** */
- /* **** AGENDA **** */
-/* **************** */
+  /* ************** */
+ /*  ** Agenda **  */
+/* ************** */
 div.conf-agenda {
   background-color: #ba5946;
 }
@@ -98,9 +98,9 @@ div.conf-agenda {
 .agenda-item h4, .agenda-item p {
   margin-left: 16px;
 }
-/* \\\\\\\\\\\\\\\ */
- /* \\\\ APPLY \\\\ */
-  /* \\\\\\\\\\\\\\\ */
+/* \\\\\\\\\\\\\ */
+ /*  \\ Apply \\  */
+  /* \\\\\\\\\\\\\ */
 div.apply {
   height: 12rem;
   background-color: #6e9284;
@@ -133,26 +133,36 @@ div.apply {
               inset -4px -4px 9px #95c5b2;
   outline: none;
 }
-/* |||||||||||||||| */
-/* **** DONORS **** */
-/* |||||||||||||||| */
+/* |||||||||||||| */
+/*  ** Donors **  */
+/* |||||||||||||| */
 div.donors {
   background-color: #899b51;
 }
 div.about-us {
   background-color:#dbb052;
 }
+/* ************** */
+/*  ** Footer **  */
+/* ************** */
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 100vw;
+  background-color: rgba(0, 0, 0, 0.97);
 }
 footer .twitter {
   height: 40px;
   width: auto;
 }
 footer .patreon-logo {
-  height: 20px;
+  height: 28px;
   width: auto;
+  margin: 5px;
+}
+footer .fa {
+  color: #ff937e;
+  font-size: 1.25rem;
+  align-self: center;
 }
