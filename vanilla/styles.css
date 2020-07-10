@@ -12,9 +12,9 @@ header {
 header .mobile-logo {
   width: 75%;
 }
-  /* /////////////////// */
- /*  // Main Banner //  */
-/* /////////////////// */
+/* ******************* */
+/*  ** Main Banner **  */
+/* ******************* */
 main .main-banner {
   background-color: #fff;
   display: flex;
@@ -24,22 +24,36 @@ main .main-banner {
 main .main-banner img {
   width: 90%;
 }
+/* ******************* */
+/*  ** About Conf. **  */
+/* ******************* */
 main .conf {
   padding: 10px 20px;
   color: #fff;
 }
-main .conf.conf-about {
+.conf.conf-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
   background-color: #ba742c;
-  color: #fff;
   text-align: center;
   line-height: 1.5rem;
 }
 .conf-about h1 {
-  margin: 0;
+  margin: 0 10px;
+  line-height: 2.25rem;
 }
-  /* ************** */
- /*  ** Agenda **  */
+.conf-about p:first-child {
+  padding: 6px 70px;
+  width: 190px;
+  text-align: center;
+}
+.conf-about p:last-child {
+  padding: 0 20px;
+}
+/* ************** */
+/*  ** Agenda **  */
 /* ************** */
 div.conf-agenda {
   background-color: #ba5946;
@@ -98,9 +112,9 @@ div.conf-agenda {
 .agenda-item h4, .agenda-item p {
   margin-left: 16px;
 }
-/* \\\\\\\\\\\\\ */
- /*  \\ Apply \\  */
-  /* \\\\\\\\\\\\\ */
+/* ************* */
+/*  ** Apply **  */
+/* ************* */
 div.apply {
   height: 12rem;
   background-color: #6e9284;
@@ -133,9 +147,9 @@ div.apply {
               inset -4px -4px 9px #95c5b2;
   outline: none;
 }
-/* |||||||||||||| */
+/* ************** */
 /*  ** Donors **  */
-/* |||||||||||||| */
+/* ************** */
 div.donors {
   background-color: #899b51;
 }
@@ -174,6 +188,18 @@ footer .fa {
   main .main-banner img {
     width: 75%;
   }
+  .conf.conf-about {
+    text-align: unset;
+  }
+  .conf-about .text {
+    width: 75%;
+  }
+  .conf-about p {
+    font-size: 1.25rem;
+  }
+  .conf-about p:first-child {
+    width: 235px;
+  }
 }
 @media only screen and (min-width: 992px) {
   header {
@@ -183,10 +209,19 @@ footer .fa {
     width: 60%;
     padding: 2.5% 0 5% 0;
   }
+  .conf-about h1 {
+    padding-left: 15%;
+  }
+  .conf-about p:last-child {
+    width: 60%;
+  }
 }
 @media only screen and (min-width: 1200px) {
   main .main-banner img {
     width: 50%;
     max-width: 580px;
+  }
+  .conf-about p:last-child {
+    text-align: justify;
   }
 }
