@@ -67,40 +67,32 @@ div.conf-agenda {
 }
 .conf-agenda .day-head {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .day-head h3 {
   font-size: 1.4rem;
   margin: 0.5rem 0;
 }
-.day-head span {
-  padding-left: 10px;
-}
-.agenda-item .time {
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-  border-radius: 16px;
-}
 .agenda-day {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .agenda-content {
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
 }
-.agenda-item .time-shape {
-  background-color: #484848;
-  width: 15px;
-  height: 15px;
-  margin-left: 5px;
-  border-radius: 50%;
+.agenda-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.agenda-item .time {
+  font-size: 1.5rem;
 }
 .time .fa {
-  padding-top: 4px;
+  transform: translate(-5px, -2px);
   font-size: 1.15rem;
-}
-.agenda-item .time span {
-  padding-left: 9px;
 }
 .agenda-item h4 {
   margin: 0.5rem 0;
@@ -108,9 +100,6 @@ div.conf-agenda {
 .agenda-item p {
   margin: 0;
   margin-bottom: 1rem
-}
-.agenda-item h4, .agenda-item p {
-  margin-left: 16px;
 }
 /* ************* */
 /*  ** Apply **  */
@@ -200,6 +189,15 @@ footer .fa {
   .conf-about p:first-child {
     width: 235px;
   }
+  .day-head span {
+    font-size: 1.3rem;
+  }
+  .agenda-item {
+    margin-top: 0.5%;
+  }
+  .agenda-item .time {
+    font-size: 1.75rem;
+  }
 }
 @media only screen and (min-width: 992px) {
   header {
@@ -215,6 +213,20 @@ footer .fa {
   .conf-about p:last-child {
     width: 60%;
   }
+  .day-head h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .agenda-content {
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 1.35rem;
+  }
+  .agenda-item {
+    margin: 0.75rem 30px;
+    width: 25%;
+    min-width: 286px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   main .main-banner img {
@@ -223,5 +235,26 @@ footer .fa {
   }
   .conf-about p:last-child {
     text-align: justify;
+  }
+  .agenda {
+    margin-top: 1rem;
+  }
+  .agenda h2 {
+    font-size: 1.8rem;
+  }
+  .agenda-day {
+    margin: 3rem 0 5rem 0;
+  }
+  .day-head h3 {
+    font-size: 1.5rem;
+  }
+  .day-head span {
+    font-size: 1.3rem
+  }
+  .agenda-content {
+    margin-top: 2rem;
+  }
+  .agenda-item h4, .agenda-item p {
+    font-size: 1.25rem
   }
 }
