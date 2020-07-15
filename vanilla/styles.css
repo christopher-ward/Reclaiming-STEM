@@ -108,18 +108,22 @@ div.apply {
   height: 12rem;
   background-color: #6e9284;
 }
+.button-container {
+  display: flex;
+  justify-content: center;
+}
 .apply button {
   height: 2.5rem;
-  width: 60%;
+  width: 65%;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
   background: #6e9284;
   border-radius: 20px;
-  box-shadow:  4px 4px 9px #485f56,
-             -4px -4px 9px #95c5b2;
-  transform: translate(4rem, 2rem);
+  box-shadow:  6px 6px 10px #485f56,
+             -6px -6px 10px #95c5b2;
+  transform: translateY(50%);
   border: 0;
   cursor: pointer;
 }
@@ -132,8 +136,9 @@ div.apply {
 .apply button:focus {
   color: #fff;
   background: #6e9284;
-  box-shadow: inset 4px 4px 9px #485f56,
-              inset -4px -4px 9px #95c5b2;
+  font-size: 0.97rem;
+  box-shadow: inset 6px 6px 10px #485f56,
+              inset -6px -6px 10px #95c5b2;
   outline: none;
 }
 /* ************** */
@@ -197,6 +202,15 @@ footer .fa {
   }
   .agenda-item .time {
     font-size: 1.75rem;
+  }
+  .apply button {
+    font-size: 1.25rem;
+    width: 50%;
+    box-shadow: 10px 10px 12px #485f56,
+                -5px -5px 12px #95c5b2;
+  }
+  .apply button:focus {
+    font-size: 1.22rem;
   }
 }
 @media only screen and (min-width: 992px) {
