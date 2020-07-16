@@ -238,7 +238,7 @@ footer .fa {
   }
   .agenda-item {
     margin: 0.75rem 30px;
-    width: 25%;
+    width: 30%;
     min-width: 286px;
   }
 }
@@ -267,6 +267,9 @@ footer .fa {
   }
   .agenda-content {
     margin-top: 2rem;
+  }
+  .agenda-item {
+    margin: 1.5rem 30px;
   }
   .agenda-item h4, .agenda-item p {
     font-size: 1.25rem
