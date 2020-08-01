@@ -44,15 +44,12 @@ main .conf {
   line-height: 1.5rem;
 }
 .conf-about h1 {
-  /* margin: 0 10px; */
   margin: 0 10px 26px 10px;
   line-height: 2.25rem;
 }
 .conf-about p:first-child {
-  /* padding: 0 70px 0 70px; */
   padding: 20px 70px;
   margin-top: unset;
-  /* margin-bottom: unset; */
   width: 205px;
   text-align: center;
   font-size: 1.25rem;
