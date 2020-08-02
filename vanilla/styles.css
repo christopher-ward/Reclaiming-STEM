@@ -120,13 +120,17 @@ div.apply {
   height: 12rem;
   background-color: #6e9284;
 }
-.button-container {
+.link-container {
   display: flex;
   justify-content: center;
+  transform: translateY(50%);
 }
-.apply button {
+.apply a {
   height: 2.5rem;
   width: 65%;
+  text-align: center;
+  text-decoration-line: none;
+  line-height: 40px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 500;
@@ -135,17 +139,16 @@ div.apply {
   border-radius: 20px;
   box-shadow:  6px 6px 10px #485f56,
              -6px -6px 10px #95c5b2;
-  transform: translateY(50%);
   border: 0;
   cursor: pointer;
 }
-.apply button:hover {
+.apply a:hover {
   color: #efefef;
   background: linear-gradient(145deg, #769c8d, #638377);
   box-shadow:  4px 4px 9px #485f56,
                -4px -4px 9px #95c5b2;
 }
-.apply button:focus {
+.apply a:focus {
   color: #fff;
   background: #6e9284;
   font-size: 0.97rem;
@@ -234,13 +237,13 @@ footer .fa {
   .agenda-item .time {
     font-size: 1.75rem;
   }
-  .apply button {
+  .apply a {
     font-size: 1.25rem;
     width: 50%;
     box-shadow: 10px 10px 12px #485f56,
                 -5px -5px 12px #95c5b2;
   }
-  .apply button:focus {
+  .apply a:focus {
     font-size: 1.22rem;
   }
 }
