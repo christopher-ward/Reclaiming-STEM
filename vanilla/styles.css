@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 20vh;
+  height: 21vh;
 }
 header .mobile-logo {
   width: 90%;
@@ -20,12 +20,12 @@ main .main-banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 58vh;
+  height: 55vh;
 }
 main .main-banner img {
   width: 94%;
   max-width: 449px;
-  transform: translateY(-4vh);
+  transform: translateY(-7vh);
 }
 /* ******************* */
 /*  ** About Conf. **  */
@@ -45,7 +45,7 @@ main .conf {
 }
 .conf-about h1 {
   margin: 0 10px 26px 10px;
-  line-height: 2.25rem;
+  line-height: 2.5rem;
 }
 .conf-about p:first-child {
   padding: 20px 70px;
@@ -53,6 +53,7 @@ main .conf {
   width: 205px;
   text-align: center;
   font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .conf-about p:nth-of-type(2) {
   padding: 16px 20px;
@@ -190,14 +191,18 @@ footer .fa {
 /* *************** */
 @media only screen and (min-width: 768px) {
   header {
-    height: 11vh;
+    height: 16vh;
   }
   header .mobile-logo {
-    width: 70%;
+    width: 75%;
+  }
+  main .main-banner {
+    height: 66vh;
   }
   main .main-banner img {
-    width: 70%;
-    transform: initial;
+    width: 79%;
+    max-width: unset;
+    transform: translateY(-3vh);
   }
   .conf.conf-about {
     text-align: unset;
@@ -215,9 +220,10 @@ footer .fa {
     font-size: 1.35rem;
   }
   .conf-about p:first-child {
-    width: 272px;
+    width: 312px;
     padding: 0 70px;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
   }
   .day-head span {
     font-size: 1.3rem;
@@ -243,8 +249,12 @@ footer .fa {
     padding-top: 2%;
   }
   main .main-banner img {
-    width: 60%;
+    width: 85%;
     padding: 2.5% 0 5% 0;
+    transform: translateY(-2vh);
+  }
+  .conf-about p:first-child {
+    font-size: 1.75rem
   }
   .day-head h3 {
     font-size: 1.5rem;
@@ -313,15 +323,37 @@ footer .fa {
 }
 @media only screen and (orientation: landscape) and (min-width: 992px) {
   header {
-    height: 16vh;
+    padding-top: initial;
   }
   header .mobile-logo {
     width: 52%;
+    margin-top: initial;
   }
   main .main-banner {
     height: 61vh;
   }
   main .main-banner img {
-    max-width: 500px;
+    max-width: 505px;
+    transform: translateY(1vh);
+  }
+  .conf-about p:first-child {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 1200px) {
+  header {
+    height: 17vh;
+  }
+  header .mobile-logo {
+    width: 50%;
+  }
+  main .main-banner {
+    height: 62vh;
+  }
+  main .main-banner img {
+    max-width: 669px;
+  }
+  .conf-about p:first-child {
+    font-size: 1.75rem;
   }
 }
