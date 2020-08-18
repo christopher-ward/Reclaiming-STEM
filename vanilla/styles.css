@@ -41,28 +41,14 @@ main .conf {
   padding: 25px;
   background-color: #ba742c;
   text-align: center;
-  line-height: 1.5rem;
 }
-.conf-about h1 {
-  margin: 0 10px 26px 10px;
-  line-height: 2.5rem;
-}
-.conf-about p:first-child {
+.conf-about p {
   padding: 20px 70px;
-  margin-top: unset;
   width: 205px;
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.conf-about p:nth-of-type(2) {
-  padding: 16px 20px;
-  margin: 10px;
-  text-align: justify;
-}
-.conf-about p:last-child {
-  margin: 0;
-  font-weight: 600;
+  font-weight: 500;
 }
 /* ************** */
 /*  ** Agenda **  */
@@ -76,6 +62,7 @@ div.conf-agenda {
 }
 .agenda h2 {
   font-size: 1.75rem;
+  text-align: center;
 }
 .conf-agenda .day-head {
   display: flex;
@@ -98,6 +85,7 @@ div.conf-agenda {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .agenda-item .time {
   font-size: 1.5rem;
@@ -111,7 +99,23 @@ div.conf-agenda {
 }
 .agenda-item p {
   margin: 0;
-  margin-bottom: 1rem
+}
+.last-content {
+  margin: inherit;
+}
+.last-item h3 {
+  font-size: 1.25rem;
+  margin: 0.75rem 0;
+  padding: 0.25rem 4rem;
+  margin-bottom: 1.5rem;
+  border: solid #d3eae1;
+  border-right: unset;
+  border-left: unset;
+}
+.last-item h4 {
+  text-align: center;
+  line-height: 1.75;
+  margin-top: 0.75rem;
 }
 /* ************* */
 /*  ** Apply **  */
@@ -226,15 +230,10 @@ footer .email-modal {
   }
   .conf.conf-about {
     text-align: unset;
-    line-height: 2.25rem;
   }
   .conf-about .text {
     width: 75%;
     text-align: center;
-  }
-  .conf-about h1 {
-    margin: 0 10px;
-    line-height: 2.25rem;
   }
   .conf-about p {
     font-size: 1.35rem;
