@@ -42,13 +42,26 @@ main .conf {
   background-color: #ba742c;
   text-align: center;
 }
-.conf-about p {
+.conf-about p:first-child {
   padding: 20px 70px;
   width: 205px;
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 500;
+}
+.conf-about h1 {
+  margin: 0 10px 26px 10px;
+  line-height: 2.5rem;
+}
+.conf-about p:nth-of-type(2) {
+  padding: 16px 20px;
+  margin: 10px;
+  text-align: justify;
+}
+.conf-about p:last-child {
+  margin: 0;
+  font-weight: 600;
 }
 /* ************** */
 /*  ** Agenda **  */
