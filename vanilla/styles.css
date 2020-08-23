@@ -20,7 +20,7 @@ main .main-banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 55vh;
+  height: 79vh;
 }
 main .main-banner img {
   width: 94%;
@@ -39,10 +39,12 @@ main .conf {
   flex-direction: column;
   align-items: center;
   padding: 25px;
+  padding-bottom: 50px;
   background-color: #ba742c;
   text-align: center;
 }
-.conf-about p:first-child {
+.conf-about p.text {
+  margin: 0;
   padding: 20px 70px;
   width: 205px;
   text-align: center;
@@ -50,18 +52,25 @@ main .conf {
   line-height: 1.75rem;
   font-weight: 500;
 }
-.conf-about h1 {
-  margin: 0 10px 26px 10px;
+.about-head h1 {
+  margin: 0;
   line-height: 2.5rem;
+  font-size: 1.5em;
+  min-width: fit-content;
+  width: 225px;
 }
-.conf-about p:nth-of-type(2) {
+.about-head {
+  align-items: center;
+  width: min-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.conf-about div.text p {
   padding: 16px 20px;
   margin: 10px;
-  text-align: justify;
-}
-.conf-about p:last-child {
-  margin: 0;
   font-weight: 600;
+  text-align: center;
+  line-height: 1.75rem;
 }
 /* ************** */
 /*  ** Agenda **  */
@@ -251,7 +260,7 @@ footer .email-modal {
   .conf-about p {
     font-size: 1.35rem;
   }
-  .conf-about p:first-child {
+  .conf-about p.text {
     width: 312px;
     padding: 0 70px;
     font-size: 1.5rem;
@@ -285,7 +294,7 @@ footer .email-modal {
     padding: 2.5% 0 5% 0;
     transform: translateY(-2vh);
   }
-  .conf-about p:first-child {
+  .conf-about p.text {
     font-size: 1.75rem
   }
   .day-head h3 {
@@ -308,7 +317,7 @@ footer .email-modal {
     width: 50%;
     max-width: 580px;
   }
-  .conf-about p:nth-of-type(2) {
+  .conf-about div.text p {
     text-align: justify;
     width: 65%;
   }
@@ -368,7 +377,7 @@ footer .email-modal {
     max-width: 505px;
     transform: translateY(1vh);
   }
-  .conf-about p:first-child {
+  .conf-about p.text {
     font-size: 1.5rem;
   }
 }
@@ -385,7 +394,7 @@ footer .email-modal {
   main .main-banner img {
     max-width: 669px;
   }
-  .conf-about p:first-child {
+  .conf-about p.text {
     font-size: 1.75rem;
   }
 }
