@@ -237,13 +237,13 @@ footer .email-modal {
 /* *************** */
 @media only screen and (min-width: 768px) {
   header {
-    height: 16vh;
+    height: 20vh;
   }
   header .mobile-logo {
     width: 75%;
   }
   main .main-banner {
-    height: 66vh;
+    height: 80vh;
   }
   main .main-banner img {
     width: 79%;
@@ -365,17 +365,18 @@ footer .email-modal {
 @media only screen and (orientation: landscape) and (min-width: 992px) {
   header {
     padding-top: initial;
+    height: 25vh;
   }
   header .mobile-logo {
-    width: 52%;
+    width: 55%;
     margin-top: initial;
   }
   main .main-banner {
-    height: 61vh;
+    height: 75vh;
   }
   main .main-banner img {
-    max-width: 505px;
-    transform: translateY(1vh);
+    max-width: 546px;
+    transform: translateY(-3vh);
   }
   .conf-about p.text {
     font-size: 1.5rem;
@@ -383,16 +384,18 @@ footer .email-modal {
 }
 @media only screen and (orientation: landscape) and (min-width: 1200px) {
   header {
-    height: 17vh;
+    height: 24vh;
   }
   header .mobile-logo {
     width: 50%;
   }
   main .main-banner {
-    height: 62vh;
+    height: 76vh;
   }
   main .main-banner img {
+    padding: 0;
     max-width: 669px;
+    transform: translateY(-5vh);
   }
   .conf-about p.text {
     font-size: 1.75rem;
