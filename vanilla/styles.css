@@ -47,10 +47,15 @@ main .conf {
   margin: 0;
   padding: 20px 70px;
   width: 205px;
-  text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 500;
+}
+.about-head {
+  align-items: center;
+  width: min-content;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .about-head h1 {
   margin: 0;
@@ -58,12 +63,6 @@ main .conf {
   font-size: 1.5em;
   min-width: fit-content;
   width: 225px;
-}
-.about-head {
-  align-items: center;
-  width: min-content;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 .conf-about div.text p {
   padding: 16px 20px;
@@ -78,10 +77,9 @@ main .conf {
 div.conf-agenda {
   background-color: #ba5946;
 }
-.agenda {
-  display: flex;
-  justify-content: center;
-}
+/* .agenda {
+
+} */
 .agenda h2 {
   font-size: 1.75rem;
   text-align: center;
@@ -254,8 +252,15 @@ footer .email-modal {
     text-align: unset;
   }
   .conf-about .text {
-    width: 75%;
     text-align: center;
+  }
+  .conf-about div.text {
+    width: 85%;
+  }
+  .about-head h1 {
+    font-size: 2.25rem;
+    width: 335px;
+    line-height: 3rem;
   }
   .conf-about p {
     font-size: 1.35rem;
@@ -294,8 +299,18 @@ footer .email-modal {
     padding: 2.5% 0 5% 0;
     transform: translateY(-2vh);
   }
+  .about-head {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .conf-about p.text {
-    font-size: 1.75rem
+    font-size: 1.75rem;
+    width: 300px;
+    margin-bottom: 25px;
+  }
+  .conf-about div.text {
+    width: 75%;
+    margin-bottom: 20px;
   }
   .day-head h3 {
     font-size: 1.5rem;
@@ -317,9 +332,13 @@ footer .email-modal {
     width: 50%;
     max-width: 580px;
   }
+  .conf-about div.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .conf-about div.text p {
-    text-align: justify;
-    width: 65%;
+    width: 70%;
   }
   .agenda {
     margin-top: 1rem;
