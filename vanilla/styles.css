@@ -43,19 +43,10 @@ main .conf {
   background-color: #ba742c;
   text-align: center;
 }
-.conf-about p.text {
-  margin: 0;
-  padding: 20px 70px;
-  width: 205px;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  font-weight: 500;
-}
 .about-head {
-  align-items: center;
   width: min-content;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .about-head h1 {
   margin: 0;
@@ -63,13 +54,22 @@ main .conf {
   font-size: 1.5em;
   min-width: fit-content;
   width: 225px;
+  text-align: center;
 }
-.conf-about div.text p {
-  padding: 16px 20px;
-  margin: 10px;
-  font-weight: 600;
+.conf-about p {
+  padding: 15px 20px;
+  margin: 5px 10px;
+  font-weight: 500;
   text-align: center;
   line-height: 1.75rem;
+}
+.conf-about p:last-child {
+  margin: 40px 0 10px;
+  padding: 0 70px;
+  width: 205px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
 }
 /* ************** */
 /*  ** Agenda **  */
@@ -77,9 +77,6 @@ main .conf {
 div.conf-agenda {
   background-color: #ba5946;
 }
-/* .agenda {
-
-} */
 .agenda h2 {
   font-size: 1.75rem;
   text-align: center;
@@ -248,14 +245,8 @@ footer .email-modal {
     max-width: unset;
     transform: translateY(-3vh);
   }
-  .conf.conf-about {
-    text-align: unset;
-  }
-  .conf-about .text {
-    text-align: center;
-  }
-  .conf-about div.text {
-    width: 85%;
+  .about-head {
+    margin-bottom: 30px;
   }
   .about-head h1 {
     font-size: 2.25rem;
@@ -263,13 +254,16 @@ footer .email-modal {
     line-height: 3rem;
   }
   .conf-about p {
-    font-size: 1.35rem;
+    font-size: 1.45rem;
+    width: 400px;
+    margin: 15px;
+    line-height: 2.25rem;
   }
-  .conf-about p.text {
-    width: 312px;
-    padding: 0 70px;
-    font-size: 1.5rem;
-    line-height: 2.75rem;
+  .conf-about p:last-child {
+    width: 265px;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin-bottom: 30px;
   }
   .day-head span {
     font-size: 1.3rem;
@@ -300,13 +294,25 @@ footer .email-modal {
     transform: translateY(-2vh);
   }
   .about-head {
-    margin-top: 50px;
+    margin-top: 75px;
     margin-bottom: 50px;
   }
-  .conf-about p.text {
+  .about-head h1 {
+    font-size: 2.75rem;
+    width: 400px;
+    line-height: 3.5rem;
+  }
+  .conf-about p {
+    width: 476px;
     font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin: 20px;
+  }
+  .conf-about p:last-child {
+    font-size: 1.85rem;
     width: 300px;
-    margin-bottom: 25px;
+    margin: 40px;
+    line-height: 2.5rem;
   }
   .conf-about div.text {
     width: 75%;
@@ -332,12 +338,7 @@ footer .email-modal {
     width: 50%;
     max-width: 580px;
   }
-  .conf-about div.text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .conf-about div.text p {
+  .conf-about p {
     width: 70%;
   }
   .agenda {
@@ -380,6 +381,34 @@ footer .email-modal {
     max-width: 350px;
     transform: translateY(-1vh);
   }
+  .about-head {
+    margin: 10px;
+  }
+  .conf-about p {
+    width: 282px;
+  }
+  .conf-about p:nth-child(2) {
+    width: 393px;
+  }
+  .conf-about p:last-child {
+    margin: 25px 0 10px;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+  .about-head h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  .conf-about p {
+    font-size: 1.15rem;
+    width: 305px;
+  }
+  .conf-about p:nth-child(2) {
+    width: 453px;
+  }
+  .conf-about p:last-child {
+    font-size: 1.5rem;
+  }
 }
 @media only screen and (orientation: landscape) and (min-width: 992px) {
   header {
@@ -397,8 +426,23 @@ footer .email-modal {
     max-width: 546px;
     transform: translateY(-3vh);
   }
-  .conf-about p.text {
+  .about-head {
+    margin: 25px;
+  }
+  .about-head h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  .conf-about p {
+    font-size: 1.15rem;
+    width: 305px;
+  }
+  .conf-about p:nth-child(2) {
+    width: 453px;
+  }
+  .conf-about p:last-child {
     font-size: 1.5rem;
+    width: 255px;
   }
 }
 @media only screen and (orientation: landscape) and (min-width: 1200px) {
@@ -416,7 +460,19 @@ footer .email-modal {
     max-width: 669px;
     transform: translateY(-5vh);
   }
-  .conf-about p.text {
+  .about-head {
+    margin: 50px 0 25px;
+  }
+  .about-head h1 {
+    font-size: 2.25rem;
+    line-height: 3.15rem;
+  }
+  .conf-about p {
+    font-size: 1.4rem;
+    width: 434px;
+  }
+  .conf-about p:last-child {
     font-size: 1.75rem;
+    width: 265px;
   }
 }
