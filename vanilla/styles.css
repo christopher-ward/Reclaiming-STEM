@@ -117,6 +117,10 @@ div.conf-agenda {
 .agenda-item p {
   margin: 0;
 }
+.agenda-item p.panel {
+  margin: 6px;
+  text-align: center;
+}
 .last-content {
   margin: inherit;
 }
