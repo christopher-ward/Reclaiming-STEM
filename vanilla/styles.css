@@ -121,6 +121,9 @@ div.conf-agenda {
   margin: 6px;
   text-align: center;
 }
+.agenda-item p span {
+  font-style: italic;
+}
 .last-content {
   margin: inherit;
 }
