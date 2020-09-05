@@ -117,11 +117,27 @@ div.conf-agenda {
 .agenda-item p {
   margin: 0;
 }
+.agenda-item div.panel-container {
+  margin-bottom: 10px;
+  border: solid 2px #d3eae1;
+  padding: 0 5px;
+}
+.agenda-item .breakout {
+  margin: 5px;
+}
+.agenda-content h5 {
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.agenda-item .panel-h5 {
+  margin: 10px 0 5px;
+}
 .agenda-item p.panel {
   margin: 6px;
   text-align: center;
 }
-.agenda-item p span {
+.agenda-item p span, .breakout span {
   font-style: italic;
 }
 .last-content {
