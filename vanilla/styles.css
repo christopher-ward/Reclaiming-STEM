@@ -13,21 +13,6 @@ header .mobile-logo {
   width: 90%;
 }
 /* ******************* */
-/*  ** Main Banner **  */
-/* ******************* */
-main .main-banner {
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 79vh;
-}
-main .main-banner img {
-  width: 94%;
-  max-width: 449px;
-  transform: translateY(-7vh);
-}
-/* ******************* */
 /*  ** About Conf. **  */
 /* ******************* */
 main .conf {
@@ -260,14 +245,6 @@ footer .email-modal {
   header .mobile-logo {
     width: 75%;
   }
-  main .main-banner {
-    height: 80vh;
-  }
-  main .main-banner img {
-    width: 79%;
-    max-width: unset;
-    transform: translateY(-3vh);
-  }
   .about-head {
     margin-bottom: 30px;
   }
@@ -311,11 +288,6 @@ footer .email-modal {
   header {
     padding-top: 2%;
   }
-  main .main-banner img {
-    width: 85%;
-    padding: 2.5% 0 5% 0;
-    transform: translateY(-2vh);
-  }
   .about-head {
     margin-top: 75px;
     margin-bottom: 50px;
@@ -357,10 +329,6 @@ footer .email-modal {
   }
 }
 @media only screen and (min-width: 1200px) {
-  main .main-banner img {
-    width: 50%;
-    max-width: 580px;
-  }
   .conf-about p {
     width: 70%;
   }
@@ -396,13 +364,6 @@ footer .email-modal {
   header .mobile-logo {
     width: 45%;
     margin-top: 2vh;
-  }
-  main .main-banner {
-    height: 84vh;
-  }
-  main .main-banner img {
-    max-width: 350px;
-    transform: translateY(-1vh);
   }
   .about-head {
     margin: 10px;
@@ -442,13 +403,6 @@ footer .email-modal {
     width: 55%;
     margin-top: initial;
   }
-  main .main-banner {
-    height: 75vh;
-  }
-  main .main-banner img {
-    max-width: 546px;
-    transform: translateY(-3vh);
-  }
   .about-head {
     margin: 25px;
   }
@@ -474,14 +428,6 @@ footer .email-modal {
   }
   header .mobile-logo {
     width: 50%;
-  }
-  main .main-banner {
-    height: 76vh;
-  }
-  main .main-banner img {
-    padding: 0;
-    max-width: 669px;
-    transform: translateY(-5vh);
   }
   .about-head {
     margin: 50px 0 25px;
