@@ -7,10 +7,11 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 21vh;
+  height: 10vh;
 }
 header .mobile-logo {
-  width: 90%;
+  width: 32%;
+  max-width: 120px;
 }
 /* ******************* */
 /*  ** About Conf. **  */
@@ -240,10 +241,12 @@ footer .email-modal {
 /* *************** */
 @media only screen and (min-width: 768px) {
   header {
-    height: 20vh;
+    height: 11vh;
+    max-height: 120px;
   }
   header .mobile-logo {
-    width: 75%;
+    width: 22%;
+    max-width: 190px;
   }
   .about-head {
     margin-bottom: 30px;
@@ -286,7 +289,11 @@ footer .email-modal {
 }
 @media only screen and (min-width: 992px) {
   header {
-    padding-top: 2%;
+    height: 10vh;
+  }
+  header .mobile-logo {
+    width: 21%;
+    max-width: 200px;
   }
   .about-head {
     margin-top: 75px;
@@ -362,8 +369,7 @@ footer .email-modal {
     height: 16vh;
   }
   header .mobile-logo {
-    width: 45%;
-    margin-top: 2vh;
+    width: 15%;
   }
   .about-head {
     margin: 10px;
@@ -378,7 +384,16 @@ footer .email-modal {
     margin: 25px 0 10px;
   }
 }
+@media only screen and (orientation: landscape) and (min-width: 720px) {
+  header {
+    height: 18vh;
+    max-height: 75px;
+  }
+}
 @media only screen and (orientation: landscape) and (min-width: 768px) {
+  header .mobile-logo {
+    width: 13%;
+  }
   .about-head h1 {
     font-size: 1.75rem;
     line-height: 2.25rem;
@@ -396,12 +411,10 @@ footer .email-modal {
 }
 @media only screen and (orientation: landscape) and (min-width: 992px) {
   header {
-    padding-top: initial;
-    height: 25vh;
+    height: 15vh;
   }
   header .mobile-logo {
-    width: 55%;
-    margin-top: initial;
+    width: 12%;
   }
   .about-head {
     margin: 25px;
@@ -424,10 +437,11 @@ footer .email-modal {
 }
 @media only screen and (orientation: landscape) and (min-width: 1200px) {
   header {
-    height: 24vh;
+    height: 11vh;
+    max-height: 102px;
   }
   header .mobile-logo {
-    width: 50%;
+    width: 11%;
   }
   .about-head {
     margin: 50px 0 25px;
