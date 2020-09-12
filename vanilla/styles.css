@@ -166,49 +166,6 @@ div.conf-agenda {
   line-height: 1.75;
   margin-top: 0.75rem;
 }
-/* ************* */
-/*  ** Apply **  */
-/* ************* */
-div.apply {
-  height: 12rem;
-  background-color: #6e9284;
-}
-.link-container {
-  display: flex;
-  justify-content: center;
-  transform: translateY(50%);
-}
-.apply a {
-  height: 2.5rem;
-  width: 65%;
-  text-align: center;
-  text-decoration-line: none;
-  line-height: 40px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #fff;
-  background: #6e9284;
-  border-radius: 20px;
-  box-shadow:  6px 6px 10px #485f56,
-             -6px -6px 10px #95c5b2;
-  border: 0;
-  cursor: pointer;
-}
-.apply a:hover {
-  color: #efefef;
-  background: linear-gradient(145deg, #769c8d, #638377);
-  box-shadow:  4px 4px 9px #485f56,
-               -4px -4px 9px #95c5b2;
-}
-.apply a:focus {
-  color: #fff;
-  background: #6e9284;
-  font-size: 0.97rem;
-  box-shadow: inset 6px 6px 10px #485f56,
-              inset -6px -6px 10px #95c5b2;
-  outline: none;
-}
 /* ************** */
 /*  ** Donors **  */
 /* ************** */
