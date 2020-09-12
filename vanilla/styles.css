@@ -166,6 +166,57 @@ div.conf-agenda {
   line-height: 1.75;
   margin-top: 0.75rem;
 }
+/* **************** */
+/*  ** Speakers **  */
+/* **************** */
+div.speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6e9284;
+}
+.speaker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0;
+}
+.speakers h2 {
+  margin: 30px 0 10px;
+}
+.speaker-image {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 150px;
+}
+.speaker-container h3 {
+  margin: 15px 0 5px;
+}
+.speaker-container p {
+  line-height: 1.5rem;
+}
+.wilnelia {
+  background-image: url("./resources/speakers/wilnelia_recart_gonzález.jpg");
+}
+.hailey {
+  background-image: url("./resources/speakers/Hailey_Levi-Speaker.png");
+  background-position-y: -60px;
+}
+.danielle {
+  background-image: url("./resources/speakers/danielle_heinz.jpg");
+  background-position-y: -40px;
+}
+.robin {
+  background-image: url("./resources/speakers/robin-lopez_1.jpg");
+}
+.kyle {
+  background-image: url("./resources/speakers/Kyle_Marian.JPG");
+  background-position: top;
+}
 /* ************** */
 /*  ** Donors **  */
 /* ************** */
