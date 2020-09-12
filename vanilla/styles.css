@@ -183,7 +183,9 @@ div.speakers {
   margin: 30px 0;
 }
 .speakers h2 {
+  font-size: 1.8rem;
   margin: 30px 0 10px;
+  text-align: center;
 }
 .speaker-image {
   height: 300px;
@@ -195,9 +197,12 @@ div.speakers {
 }
 .speaker-container h3 {
   margin: 15px 0 5px;
+  font-size: 1.25rem;
 }
 .speaker-container p {
   line-height: 1.5rem;
+  font-size: 1.05rem;
+  width: 326px;
 }
 .wilnelia {
   background-image: url("./resources/speakers/wilnelia_recart_gonzález.jpg");
@@ -211,7 +216,7 @@ div.speakers {
   background-position-y: -40px;
 }
 .robin {
-  background-image: url("./resources/speakers/robin-lopez_1.jpg");
+  background-image: url("./resources/speakers/robin-lopez.jpg");
 }
 .kyle {
   background-image: url("./resources/speakers/Kyle_Marian.JPG");
@@ -342,14 +347,22 @@ footer .email-modal {
   .agenda-item .time {
     font-size: 1.75rem;
   }
-  .apply a {
-    font-size: 1.25rem;
-    width: 40%;
-    box-shadow: 10px 10px 12px #485f56,
-                -5px -5px 12px #95c5b2;
+  .speaker-container {
+    display: flex;
+    margin: 30px 0;
   }
-  .apply a:focus {
-    font-size: 1.22rem;
+  .speakers h2 {
+    font-size: 2rem;
+    margin: 40px 0 15px;
+  }
+  .speaker-container h3 {
+    margin: 15px 0 5px;
+    font-size: 1.35rem;
+  }
+  .speaker-container p {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    width: 505px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -414,6 +427,22 @@ footer .email-modal {
     width: 30%;
     min-width: 286px;
   }
+  .speaker-container {
+    margin: 30px 0;
+  }
+  .speakers h2 {
+    font-size: 2.15rem;
+    margin: 50px 0 25px;
+  }
+  .speaker-container h3 {
+    margin: 15px 0 5px;
+    font-size: 1.5rem;
+  }
+  .speaker-container p {
+    line-height: 1.85rem;
+    font-size: 1.35rem;
+    width: 595px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .conf-about p {
@@ -472,6 +501,22 @@ footer .email-modal {
   }
   .agenda h2 {
     font-size: 1.5rem;
+  }
+  .speaker-container {
+    margin: 30px 0;
+  }
+  .speakers h2 {
+    font-size: 1.8rem;
+    margin: 15px 0 5px;
+  }
+  .speaker-container h3 {
+    margin: 15px 0 5px;
+    font-size: 1.25rem;
+  }
+  .speaker-container p {
+    line-height: 1.5rem;
+    font-size: 1.05rem;
+    width: 456px;
   }
 }
 @media only screen and (orientation: landscape) and (min-width: 720px) {
@@ -547,6 +592,22 @@ footer .email-modal {
     font-size: 1.85rem;
     margin: 0 0 0.5rem;
   }
+  .speaker-container {
+    margin: 50px 0;
+  }
+  .speakers h2 {
+    font-size: 2.45rem;
+    margin: 25px 0 10px;
+  }
+  .speaker-container h3 {
+    margin: 20px 0 0;
+    font-size: 1.45rem;
+  }
+  .speaker-container p {
+    line-height: 1.65rem;
+    font-size: 1.2rem;
+    width: 585px;
+  }
 }
 @media only screen and (orientation: landscape) and (min-width: 1200px) {
   header {
@@ -574,5 +635,21 @@ footer .email-modal {
   }
   .conf-about a.conduct {
     font-size: 1.3rem;
+  }
+  .speaker-container {
+    margin: 55px 0;
+  }
+  .speakers h2 {
+    font-size: 2.55rem;
+    margin: 30px 0 15px;
+  }
+  .speaker-container h3 {
+    margin: 20px 0 0;
+    font-size: 1.65rem;
+  }
+  .speaker-container p {
+    line-height: 1.85rem;
+    font-size: 1.45rem;
+    width: 710px;
   }
 }
