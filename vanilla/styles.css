@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: 'Montserrat';
+  min-width: fit-content;
+  font-family: 'Montserrat', sans-serif;
 }
-
 header {
   background-color: #fff;
   display: flex;
@@ -10,106 +10,644 @@ header {
   align-items: center;
   height: 10vh;
 }
-
-/* header .bars {
-  font-size: 1.25rem;
-} */
-
 header .mobile-logo {
-  width: 75%;
+  width: 32%;
+  max-width: 120px;
 }
-
-/* header .search {
-  font-size: 1.25rem;
-} */
-
-/* main {
-  height: 90vh;
-} */
-
-main .main-banner {
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-main .main-banner img {
-  width: 90%;
-}
-
+/* ******************* */
+/*  ** About Conf. **  */
+/* ******************* */
 main .conf {
   padding: 10px 20px;
   color: #fff;
 }
-
-main .conf.conf-about {
-  padding: 20px;
-  background-color: #ba742c;
-  color: #fff;
-  text-align: center;
-  line-height: 1.5rem;
-}
-
-.conf-about h1 {
-  margin: 0;
-}
-
-div.conf-agenda {
-  background-color: #6e9284;
-}
-
-.conf-agenda .day-head {
+.conf.conf-about {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  padding: 25px;
+  padding-bottom: 50px;
+  background-color: #ba742c;
+  text-align: center;
 }
-
-.day-head span {
-  padding-left: 10px;
+.about-head {
+  width: min-content;
 }
-
-.agenda-item .time {
-  border-left: 5px solid black;
+.about-head h1 {
+  margin: 5px 0;
+  line-height: 2.25rem;
+  font-size: 1.5em;
+  min-width: fit-content;
+  width: 225px;
+  text-align: center;
 }
-
-.agenda-item .time span {
-  padding-left: 10px;
+.conf-about p {
+  padding: 15px 20px;
+  margin: 5px 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.75rem;
 }
-
-.agenda-item h4 {
-  margin: 0.5rem 0;
+.conf-about p:nth-child(2) {
+  width: 272px;
 }
-
-.agenda-item p {
-  margin: 0;
-  margin-bottom: 2rem
+.conf-about p:last-of-type {
+  margin: 30px 0 10px;
+  padding: 0 70px;
+  width: 205px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
 }
-
-div.apply {
-  background-color: #7d7c4c;
+.conf-about a.conduct {
+  margin: 10px 0 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #fff;
 }
-
-div.donors {
+/* ************** */
+/*  ** Agenda **  */
+/* ************** */
+div.conf-agenda {
   background-color: #ba5946;
 }
-
+.agenda {
+  margin: 1.75rem 0 1.5rem;
+}
+.agenda h2 {
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+.agenda p {
+  text-align: center;
+  font-size: 0.85rem;
+  margin: 0;
+}
+.conf-agenda .day-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.day-head h3 {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}
+.agenda-day {
+  margin-bottom: 3rem;
+}
+.agenda-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+}
+.agenda-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.agenda-item .time {
+  font-size: 1.5rem;
+}
+.time .fa {
+  transform: translate(-5px, -2px);
+  font-size: 1.15rem;
+}
+.agenda-item h4 {
+  margin: 0.5rem 0;
+  text-align: center;
+  width: 340px;
+}
+.agenda-item h4 span {
+  font-style: italic;
+}
+.agenda-item p {
+  margin: 0;
+}
+.agenda-item div.panel-container {
+  margin-bottom: 10px;
+}
+.agenda-item .breakout {
+  margin: 5px;
+}
+.agenda-content h5 {
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.agenda-item .panel-h5 {
+  margin: 10px 0 5px;
+}
+.agenda-item p.panel {
+  margin: 6px;
+  text-align: center;
+}
+.agenda-item p span, .breakout span {
+  font-style: italic;
+}
+.last-content {
+  margin: inherit;
+}
+.last-item h3 {
+  font-size: 1.25rem;
+  margin: 0.75rem 0;
+  padding: 0.25rem 4rem;
+  margin-bottom: 1.5rem;
+  border: solid #d3eae1;
+  border-right: unset;
+  border-left: unset;
+}
+.last-item h4 {
+  text-align: center;
+  line-height: 1.75;
+  margin-top: 0.75rem;
+}
+/* **************** */
+/*  ** Speakers **  */
+/* **************** */
+div.speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6e9284;
+}
+.speaker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0;
+}
+.speakers h2 {
+  font-size: 1.8rem;
+  margin: 30px 0 10px;
+  text-align: center;
+}
+.speaker-image {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 150px;
+}
+.speaker-container h3 {
+  margin: 15px 0 5px;
+  font-size: 1.25rem;
+}
+.speaker-container p {
+  line-height: 1.5rem;
+  font-size: 1.05rem;
+  width: 326px;
+}
+.wilnelia {
+  background-image: url("./resources/speakers/wilnelia_recart_gonzález.jpg");
+}
+.hailey {
+  background-image: url("./resources/speakers/Hailey_Levi-Speaker.png");
+  background-position-y: -60px;
+}
+.danielle {
+  background-image: url("./resources/speakers/danielle_heinz.jpg");
+  background-position-y: -40px;
+}
+.robin {
+  background-image: url("./resources/speakers/robin-lopez.jpg");
+}
+.kyle {
+  background-image: url("./resources/speakers/Kyle_Marian.JPG");
+  background-position: top;
+}
+/* ************** */
+/*  ** Donors **  */
+/* ************** */
+div.donors {
+  background-color: #899b51;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donors h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.donors p {
+  text-align: center;
+  font-size: 1.15rem;
+  margin: 15px 0;
+  line-height: 1.65rem;
+}
+.donors p:nth-child(4) {
+  width: 316px;
+}
+.donors p:nth-child(9), .donors p:nth-child(10) {
+  font-weight: 500;
+}
 div.about-us {
   background-color:#dbb052;
 }
-
+/* ************** */
+/*  ** Footer **  */
+/* ************** */
 footer {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   max-width: 100vw;
+  background-color: rgba(0, 0, 0, 0.97);
 }
-
+footer a {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+}
 footer .twitter {
-  height: 40px;
-  width: auto;
+  max-width: 40px;
 }
-
 footer .patreon-logo {
-  height: 20px;
-  width: auto;
+  max-width: 28px;
+}
+footer .fa {
+  color: #ff937e;
+  font-size: 1.25rem;
+  margin: 0 20px;
+}
+footer .email-modal {
+  position: absolute;
+  color: white;
+  bottom: 43px;
+  background: rgb(72 72 72 / 0.7);
+  border-radius: 10px;
+}
+.email-modal p {
+  margin: 0;
+  padding: 5px;
+}
+.hidden {
+  display: none;
+}
+/* *************** */
+/*  ** Queries **  */
+/* *************** */
+@media only screen and (min-width: 768px) {
+  header {
+    height: 11vh;
+    max-height: 120px;
+  }
+  header .mobile-logo {
+    width: 22%;
+    max-width: 190px;
+  }
+  .about-head {
+    margin: 20px 0 15px;
+  }
+  .about-head h1 {
+    font-size: 2.25rem;
+    width: 335px;
+    line-height: 3rem;
+  }
+  .conf-about p {
+    font-size: 1.45rem;
+    width: 400px;
+    margin: 10px;
+    line-height: 2.25rem;
+  }
+  .conf-about p:nth-child(2) {
+    width: 505px;
+  }
+  .conf-about p:last-of-type {
+    width: 265px;
+    font-size: 1.65rem;
+    line-height: 2.25rem;
+    margin-bottom: 30px;
+  }
+  .conf-about a.conduct {
+    font-size: 1.35rem;
+  }
+  .agenda {
+    margin: 2rem 0 1.75rem;
+  }
+  .agenda p {
+    font-size: 0.95rem;
+  }
+  .agenda h2 {
+    font-size: 1.85rem;
+  }
+  .day-head span {
+    font-size: 1.3rem;
+  }
+  .agenda-item {
+    margin-top: 0.5%;
+  }
+  .agenda-item .time {
+    font-size: 1.75rem;
+  }
+  .speaker-container {
+    display: flex;
+    margin: 30px 0;
+  }
+  .speakers h2 {
+    font-size: 2rem;
+    margin: 40px 0 15px;
+  }
+  .speaker-container h3 {
+    margin: 15px 0 5px;
+    font-size: 1.35rem;
+  }
+  .speaker-container p {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    width: 505px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  header {
+    height: 10vh;
+  }
+  header .mobile-logo {
+    width: 21%;
+    max-width: 200px;
+  }
+  .about-head {
+    margin: 50px 0 30px;
+  }
+  .about-head h1 {
+    font-size: 2.75rem;
+    width: 400px;
+    line-height: 3.5rem;
+  }
+  .conf-about p {
+    width: 476px;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin: 20px;
+  }
+  .conf-about p:nth-child(2) {
+    width: 635px;
+  }
+  .conf-about p:last-of-type {
+    font-size: 1.85rem;
+    width: 300px;
+    margin: 40px;
+    line-height: 2.5rem;
+  }
+  .conf-about a.conduct {
+    font-size: 1.55rem
+  }
+  .conf-about div.text {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  .agenda {
+    margin: 2.5rem 0 2.2rem;
+  }
+  .agenda h2 {
+    font-size: 2.1rem;
+    margin: 0 0 0.7rem;
+  }
+  .agenda p {
+    font-size: 1.10rem;
+  }
+  .day-head h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .agenda-content {
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 1.35rem;
+  }
+  .agenda-item {
+    margin: 0.75rem 30px;
+    width: 30%;
+    min-width: 286px;
+  }
+  .speaker-container {
+    margin: 30px 0;
+  }
+  .speakers h2 {
+    font-size: 2.15rem;
+    margin: 50px 0 25px;
+  }
+  .speaker-container h3 {
+    margin: 15px 0 5px;
+    font-size: 1.5rem;
+  }
+  .speaker-container p {
+    line-height: 1.85rem;
+    font-size: 1.35rem;
+    width: 595px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .conf-about p {
+    width: 70%;
+  }
+  .agenda {
+    margin-top: 1rem;
+  }
+  .agenda h2 {
+    font-size: 1.8rem;
+  }
+  .agenda-day {
+    margin: 3rem 0 5rem 0;
+  }
+  .day-head h3 {
+    font-size: 1.5rem;
+  }
+  .day-head span {
+    font-size: 1.3rem
+  }
+  .agenda-content {
+    margin-top: 2rem;
+  }
+  .agenda-item {
+    margin: 1.5rem 30px;
+  }
+  .agenda-item h4, .agenda-item p {
+    font-size: 1.25rem
+  }
+}
+@media only screen and (orientation: landscape) {
+  header {
+    height: 16vh;
+  }
+  header .mobile-logo {
+    width: 15%;
+  }
+  .about-head {
+    margin: 5px 0 0;
+  }
+  .about-head h1 {
+    line-height: 2rem;
+  }
+  .conf-about p {
+    width: 282px;
+  }
+  .conf-about p:nth-child(2) {
+    width: 420px;
+    margin: 0;
+  }
+  .conf-about p:last-of-type {
+    margin: 25px 0 10px;
+  }
+  .agenda {
+    margin: 1.25rem 0 1rem;
+  }
+  .agenda h2 {
+    font-size: 1.5rem;
+  }
+  .speaker-container {
+    margin: 30px 0;
+  }
+  .speakers h2 {
+    font-size: 1.8rem;
+    margin: 15px 0 5px;
+  }
+  .speaker-container h3 {
+    margin: 15px 0 5px;
+    font-size: 1.25rem;
+  }
+  .speaker-container p {
+    line-height: 1.5rem;
+    font-size: 1.05rem;
+    width: 456px;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 720px) {
+  header {
+    height: 18vh;
+    max-height: 75px;
+  }
+  .about-head {
+    margin: 0;
+  }
+  .conf-about p:nth-child(2) {
+    margin: revert;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+  header .mobile-logo {
+    width: 13%;
+  }
+  .about-head h1 {
+    font-size: 1.65rem;
+    line-height: 1.85rem;
+    margin: 5px 0 0;
+  }
+  .conf-about p {
+    font-size: 1.25rem;
+    width: 305px;
+  }
+  .conf-about p:nth-child(2) {
+    width: 600px;
+    margin: 10px 0;
+  }
+  .conf-about p:last-of-type {
+    font-size: 1.45rem;
+    margin: 20px 0 10px;
+  }
+  .conf-about a.conduct {
+    font-size: 1.2rem;
+  }
+  .agenda {
+    margin: 1.5rem 0 1.25rem;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 992px) {
+  header {
+    height: 15vh;
+  }
+  header .mobile-logo {
+    width: 12%;
+  }
+  .about-head {
+    margin: 25px 0 15px;
+  }
+  .about-head h1 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin: 0;
+  }
+  .conf-about p {
+    font-size: 1.35rem;
+    width: 320px;
+  }
+  .conf-about p:nth-child(2) {
+    width: 550px;
+    margin: 10px 0 10px;
+  }
+  .conf-about p:last-of-type {
+    width: 255px;
+  }
+  .agenda {
+    margin: 1.75rem 0 1.5rem;
+  }
+  .agenda h2 {
+    font-size: 1.85rem;
+    margin: 0 0 0.5rem;
+  }
+  .speaker-container {
+    margin: 50px 0;
+  }
+  .speakers h2 {
+    font-size: 2.45rem;
+    margin: 25px 0 10px;
+  }
+  .speaker-container h3 {
+    margin: 20px 0 0;
+    font-size: 1.45rem;
+  }
+  .speaker-container p {
+    line-height: 1.65rem;
+    font-size: 1.2rem;
+    width: 585px;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 1200px) {
+  header {
+    height: 11vh;
+    max-height: 102px;
+  }
+  header .mobile-logo {
+    width: 11%;
+  }
+  .about-head {
+    margin: 35px 0 25px;
+  }
+  .about-head h1 {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+  .conf-about p {
+    font-size: 1.4rem;
+    width: 465px;
+  }
+  .conf-about p:last-of-type {
+    font-size: 1.65rem;
+    width: 250px;
+    margin: 25px 0;
+  }
+  .conf-about a.conduct {
+    font-size: 1.3rem;
+  }
+  .speaker-container {
+    margin: 55px 0;
+  }
+  .speakers h2 {
+    font-size: 2.55rem;
+    margin: 30px 0 15px;
+  }
+  .speaker-container h3 {
+    margin: 20px 0 0;
+    font-size: 1.65rem;
+  }
+  .speaker-container p {
+    line-height: 1.85rem;
+    font-size: 1.45rem;
+    width: 710px;
+  }
 }
