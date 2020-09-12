@@ -34,7 +34,7 @@ main .conf {
 }
 .about-head h1 {
   margin: 5px 0;
-  line-height: 2.5rem;
+  line-height: 2.25rem;
   font-size: 1.5em;
   min-width: fit-content;
   width: 225px;
@@ -43,9 +43,13 @@ main .conf {
 .conf-about p {
   padding: 15px 20px;
   margin: 5px 10px;
+  font-size: 1.1rem;
   font-weight: 500;
   text-align: center;
   line-height: 1.75rem;
+}
+.conf-about p:nth-child(2) {
+  width: 272px;
 }
 .conf-about p:last-child {
   margin: 30px 0 10px;
@@ -279,6 +283,9 @@ footer .email-modal {
     margin: 10px;
     line-height: 2.25rem;
   }
+  .conf-about p:nth-child(2) {
+    width: 505px;
+  }
   .conf-about p:last-child {
     width: 265px;
     font-size: 1.65rem;
@@ -325,6 +332,9 @@ footer .email-modal {
     font-size: 1.75rem;
     line-height: 2.5rem;
     margin: 20px;
+  }
+  .conf-about p:nth-child(2) {
+    width: 635px;
   }
   .conf-about p:last-child {
     font-size: 1.85rem;
@@ -397,7 +407,8 @@ footer .email-modal {
     width: 282px;
   }
   .conf-about p:nth-child(2) {
-    width: 393px;
+    width: 420px;
+    margin: 0;
   }
   .conf-about p:last-child {
     margin: 25px 0 10px;
@@ -430,7 +441,7 @@ footer .email-modal {
   }
   .conf-about p:nth-child(2) {
     width: 600px;
-    margin: 5px 0 10px;
+    margin: 10px 0;
   }
   .conf-about p:last-child {
     font-size: 1.45rem;
