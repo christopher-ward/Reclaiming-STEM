@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  min-width: fit-content;
   font-family: 'Montserrat', sans-serif;
 }
 header {
@@ -51,13 +52,19 @@ main .conf {
 .conf-about p:nth-child(2) {
   width: 272px;
 }
-.conf-about p:last-child {
+.conf-about p:last-of-type {
   margin: 30px 0 10px;
   padding: 0 70px;
   width: 205px;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
+}
+.conf-about a.conduct {
+  margin: 10px 0 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #fff;
 }
 /* ************** */
 /*  ** Agenda **  */
@@ -286,11 +293,14 @@ footer .email-modal {
   .conf-about p:nth-child(2) {
     width: 505px;
   }
-  .conf-about p:last-child {
+  .conf-about p:last-of-type {
     width: 265px;
     font-size: 1.65rem;
     line-height: 2.25rem;
     margin-bottom: 30px;
+  }
+  .conf-about a.conduct {
+    font-size: 1.35rem;
   }
   .day-head span {
     font-size: 1.3rem;
@@ -336,11 +346,14 @@ footer .email-modal {
   .conf-about p:nth-child(2) {
     width: 635px;
   }
-  .conf-about p:last-child {
+  .conf-about p:last-of-type {
     font-size: 1.85rem;
     width: 300px;
     margin: 40px;
     line-height: 2.5rem;
+  }
+  .conf-about a.conduct {
+    font-size: 1.55rem
   }
   .conf-about div.text {
     width: 75%;
@@ -410,7 +423,7 @@ footer .email-modal {
     width: 420px;
     margin: 0;
   }
-  .conf-about p:last-child {
+  .conf-about p:last-of-type {
     margin: 25px 0 10px;
   }
 }
@@ -443,9 +456,12 @@ footer .email-modal {
     width: 600px;
     margin: 10px 0;
   }
-  .conf-about p:last-child {
+  .conf-about p:last-of-type {
     font-size: 1.45rem;
     margin: 20px 0 10px;
+  }
+  .conf-about a.conduct {
+    font-size: 1.2rem;
   }
 }
 @media only screen and (orientation: landscape) and (min-width: 992px) {
@@ -471,7 +487,7 @@ footer .email-modal {
     width: 550px;
     margin: 10px 0 10px;
   }
-  .conf-about p:last-child {
+  .conf-about p:last-of-type {
     width: 255px;
   }
 }
@@ -494,9 +510,12 @@ footer .email-modal {
     font-size: 1.4rem;
     width: 465px;
   }
-  .conf-about p:last-child {
+  .conf-about p:last-of-type {
     font-size: 1.65rem;
     width: 250px;
     margin: 25px 0;
+  }
+  .conf-about a.conduct {
+    font-size: 1.3rem;
   }
 }
