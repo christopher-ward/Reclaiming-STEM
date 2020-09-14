@@ -125,6 +125,7 @@ div.conf-agenda {
 }
 .agenda-item p {
   margin: 0;
+  text-align: center;
 }
 .agenda-item div.panel-container {
   margin-bottom: 10px;
@@ -140,12 +141,18 @@ div.conf-agenda {
 .agenda-item .panel-h5 {
   margin: 10px 0 5px;
 }
+.panel-h5 span {
+  font-style: italic;
+}
 .agenda-item p.panel {
   margin: 6px;
   text-align: center;
 }
 .agenda-item p span, .breakout span {
   font-style: italic;
+}
+.breakout h5 span {
+  font-weight: 600;
 }
 .last-content {
   margin: inherit;
