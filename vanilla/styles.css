@@ -210,22 +210,74 @@ div.speakers {
   width: 326px;
 }
 .wilnelia {
-  background-image: url("./resources/speakers/wilnelia_recart_gonzález.jpg");
+  background-image: url("./resources/speakers/day_one/wilnelia_recart_gonzález.jpg");
 }
 .hailey {
-  background-image: url("./resources/speakers/Hailey_Levi-Speaker.png");
+  background-image: url("./resources/speakers/day_one/Hailey_Levi-Speaker.png");
   background-position-y: -60px;
 }
 .danielle {
-  background-image: url("./resources/speakers/danielle_heinz.jpg");
+  background-image: url("./resources/speakers/day_one/danielle_heinz.jpg");
   background-position-y: -40px;
 }
 .robin {
-  background-image: url("./resources/speakers/robin-lopez.jpg");
+  background-image: url("./resources/speakers/day_one/robin-lopez.jpg");
 }
 .kyle {
-  background-image: url("./resources/speakers/Kyle_Marian.JPG");
+  background-image: url("./resources/speakers/day_one/Kyle_Marian.JPG");
   background-position: top;
+}
+.ravi {
+  background-image: url("./resources/speakers/day_two/Ravi-Speaker.jpg");
+  background-position-y: -18px;
+}
+.newton {
+  /* background-image: url("./resources/speakers/day_two/Ravi-Speaker.jpg"); */
+}
+.alyssa {
+  /* background-image: url("./resources/speakers/day_two/Ravi-Speaker.jpg"); */
+}
+.karen {
+  background-image: url("./resources/speakers/day_two/Karen_Tang.jpg");
+  background-position-y: -25px;
+}
+.ariana {
+  /* background-image: url("./resources/speakers/day_two/"); */
+}
+.megan {
+  background-image: url("./resources/speakers/day_two/Megan_Lynch_Lab_Photo.JPG");
+  background-position-y: 0;
+}
+.nichole {
+  background-image: url("./resources/speakers/day_two/Nichole_Bennett_Speaker.jpg");
+}
+a.nichole-link {
+  color: #fff;
+}
+.linh-anh {
+  background-image: url("./resources/speakers/day_two/Linh_Anh_Cat-Co-Founder.jpg");
+  background-position-y: -60px;
+}
+.iam {
+  background-image: url("./resources/speakers/day_two/GaieckWilliam_ProfilePicture.jpg");
+}
+.crystal {
+  background-image: url("./resources/speakers/day_two/Crystal_Grant.JPG");
+  background-position-y: -50px;
+}
+.maria {
+  background-image: url("./resources/speakers/day_two/Montchal_Headshot.jpeg");
+  background-position-y: -10px;
+}
+.dane {
+  background-image: url("./resources/speakers/day_two/Dane_Samilo_Speaker.jpg");
+}
+.ivan {
+  background-image: url("./resources/speakers/day_two/Ivan_Moreno_Speaker.jpg");
+}
+.ti {
+  background-image: url("./resources/speakers/day_two/Ti_'era.JPEG");
+  background-position-y: -67px;
 }
 /* ************** */
 /*  ** Donors **  */
