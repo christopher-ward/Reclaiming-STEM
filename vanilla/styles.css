@@ -237,19 +237,23 @@ div.speakers {
 }
 .alyssa {
   background-image: url("./resources/speakers/day_two/Alyssa.JPG");
-  background-position: -40px -28px;
-  background-size: 150%;
+  background-position: -52px -48px;
+  background-size: 160%;
 }
 .karen {
   background-image: url("./resources/speakers/day_two/Karen_Tang.jpg");
   background-position-y: -25px;
+  background-size: 115%;
 }
 .ariana {
   background-image: url("./resources/speakers/day_two/Ariana.jpg");
+  background-size: 120%;
+  background-position: -12px -127px;
 }
 .megan {
   background-image: url("./resources/speakers/day_two/Megan_Lynch_Lab_Photo.JPG");
   background-position-y: 0;
+  background-size: 103%;
 }
 .nichole {
   background-image: url("./resources/speakers/day_two/Nichole_Bennett_Speaker.jpg");
@@ -263,6 +267,8 @@ a.nichole-link {
 }
 .iam {
   background-image: url("./resources/speakers/day_two/GaieckWilliam_ProfilePicture.jpg");
+  background-size: 113%;
+  background-position: 0px -30px;
 }
 .crystal {
   background-image: url("./resources/speakers/day_two/Crystal_Grant.JPG");
