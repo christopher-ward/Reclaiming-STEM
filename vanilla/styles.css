@@ -247,6 +247,8 @@ div.speakers {
 }
 .ariana {
   background-image: url("./resources/speakers/day_two/Ariana.jpg");
+  background-size: 120%;
+  background-position: -12px -127px;
 }
 .megan {
   background-image: url("./resources/speakers/day_two/Megan_Lynch_Lab_Photo.JPG");
