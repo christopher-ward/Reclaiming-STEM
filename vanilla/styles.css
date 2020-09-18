@@ -235,9 +235,17 @@ div.speakers {
   background-image: url("./resources/speakers/day_two/Newton.jpg");
   background-position-y: -42px;
 }
+.alyssa {
+  background-image: url("./resources/speakers/day_two/Alyssa.JPG");
+  background-position: -40px -28px;
+  background-size: 150%;
+}
 .karen {
   background-image: url("./resources/speakers/day_two/Karen_Tang.jpg");
   background-position-y: -25px;
+}
+.ariana {
+  background-image: url("./resources/speakers/day_two/Ariana.jpg");
 }
 .megan {
   background-image: url("./resources/speakers/day_two/Megan_Lynch_Lab_Photo.JPG");
