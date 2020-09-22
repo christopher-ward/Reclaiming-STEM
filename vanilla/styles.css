@@ -123,15 +123,16 @@ div.conf-agenda {
 .agenda-item h4 span {
   font-style: italic;
 }
-.agenda-item p {
-  margin: 0;
-  text-align: center;
+.agenda-item a {
+  color: #fff;
+  line-height: 1.5rem;
 }
 .agenda-item div.panel-container {
   margin-bottom: 10px;
 }
 .agenda-item .breakout {
   margin: 5px;
+  text-align: center;
 }
 .agenda-content h5 {
   text-align: center;
@@ -148,7 +149,7 @@ div.conf-agenda {
   margin: 6px;
   text-align: center;
 }
-.agenda-item p span, .breakout span {
+.agenda-item a, .breakout span {
   font-style: italic;
 }
 .breakout h5 span {
@@ -426,6 +427,9 @@ footer .email-modal {
   }
   .agenda-item .time {
     font-size: 1.75rem;
+  }
+  .agenda-item a {
+    font-size: 1.3rem;
   }
   .speaker-container {
     display: flex;
