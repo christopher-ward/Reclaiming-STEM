@@ -125,6 +125,7 @@ div.conf-agenda {
 }
 .agenda-item h4 span {
   font-style: italic;
+  font-size: 1.25rem;
 }
 .agenda-item a {
   color: #fff;
