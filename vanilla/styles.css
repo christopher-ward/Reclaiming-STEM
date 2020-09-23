@@ -122,14 +122,16 @@ div.conf-agenda {
   margin: 0.5rem 0;
   text-align: center;
   width: 340px;
+  font-size: 1.2rem;
 }
 .agenda-item h4 span {
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 .agenda-item a {
   color: #fff;
   line-height: 1.5rem;
+  font-size: 1.05rem;
 }
 .agenda-item div.panel-container {
   margin-bottom: 10px;
@@ -141,7 +143,7 @@ div.conf-agenda {
 .agenda-content h5 {
   text-align: center;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 .agenda-item .panel-h5 {
   margin: 10px 0 5px;
@@ -158,6 +160,7 @@ div.conf-agenda {
 }
 .breakout h5 span {
   font-weight: 600;
+  font-size: 1.05rem;
 }
 .last-content {
   margin: inherit;
@@ -456,9 +459,15 @@ footer .email-modal {
   .agenda-item h4 {
     font-size: 1.3rem;
   }
+  .agenda-item h4 span {
+    font-size: 1.25rem;
+  }
   .agenda-item h5 {
     font-size: 1.15rem;
     margin-bottom: 0.15rem;
+  }
+  .agenda-item h5 span {
+    font-size: 1.1rem;
   }
   .agenda-item a {
     font-size: 1.25rem;
