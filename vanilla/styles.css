@@ -94,6 +94,9 @@ div.conf-agenda {
   font-size: 1.4rem;
   margin: 0.5rem 0;
 }
+.day-head span {
+  font-size: 1.15rem;
+}
 .agenda-day {
   margin-bottom: 3rem;
 }
@@ -119,24 +122,28 @@ div.conf-agenda {
   margin: 0.5rem 0;
   text-align: center;
   width: 340px;
+  font-size: 1.2rem;
 }
 .agenda-item h4 span {
   font-style: italic;
+  font-size: 1.15rem;
 }
-.agenda-item p {
-  margin: 0;
-  text-align: center;
+.agenda-item a {
+  color: #fff;
+  line-height: 1.5rem;
+  font-size: 1.05rem;
 }
 .agenda-item div.panel-container {
   margin-bottom: 10px;
 }
 .agenda-item .breakout {
   margin: 5px;
+  text-align: center;
 }
 .agenda-content h5 {
   text-align: center;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 .agenda-item .panel-h5 {
   margin: 10px 0 5px;
@@ -148,11 +155,12 @@ div.conf-agenda {
   margin: 6px;
   text-align: center;
 }
-.agenda-item p span, .breakout span {
+.agenda-item a, .breakout span {
   font-style: italic;
 }
 .breakout h5 span {
   font-weight: 600;
+  font-size: 1.05rem;
 }
 .last-content {
   margin: inherit;
@@ -288,6 +296,35 @@ a.nichole-link {
   background-image: url("./resources/speakers/day_two/Ti_'era.JPEG");
   background-position-y: -67px;
 }
+.leakana {
+  background-image: url("./resources/speakers/day_three/Leakana_Picture_1.jpg");
+  background-position: -89px 0px;
+  background-size: 137%;
+}
+.lydia {
+  background-image: url("./resources/speakers/day_three/Lydia_Jennings.jpg");
+  background-position: -81px -38px;
+  background-size: 170%;
+}
+.stephanie {
+  background-image: url("./resources/speakers/day_three/Stephanie_Castillo.jpeg");
+  background-position: -5px -96px;
+  background-size: 110%;
+}
+.toby {
+  background-image: url("./resources/speakers/day_three/toby_itati.jpg");
+  background-position: 0 0;
+}
+.gabe {
+  background-image: url("./resources/speakers/day_three/gabe_santos.JPG");
+  background-position: -176px -44px;
+  background-size: 205%;
+}
+.jeanette {
+  background-image: url("./resources/speakers/day_three/jeanette_pirlo.jpeg");
+  background-size: 140%;
+  background-position: -43px -48px;
+}
 /* ************** */
 /*  ** Donors **  */
 /* ************** */
@@ -396,22 +433,48 @@ footer .email-modal {
     font-size: 1.35rem;
   }
   .agenda {
-    margin: 2rem 0 1.75rem;
+    margin: 3rem 0 2.5rem;
   }
   .agenda p {
     font-size: 0.95rem;
   }
   .agenda h2 {
-    font-size: 1.85rem;
+    font-size: 1.95rem;
+  }
+  .agenda-day {
+    margin-bottom: 5rem;
   }
   .day-head span {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
+  }
+  .day-head h3 {
+  	font-size: 1.75rem;
   }
   .agenda-item {
     margin-top: 0.5%;
   }
   .agenda-item .time {
     font-size: 1.75rem;
+  }
+  .agenda-item h4 {
+    font-size: 1.3rem;
+  }
+  .agenda-item h4 span {
+    font-size: 1.25rem;
+  }
+  .agenda-item h5 {
+    font-size: 1.15rem;
+    margin-bottom: 0.15rem;
+  }
+  .agenda-item h5 span {
+    font-size: 1.1rem;
+  }
+  .agenda-item a {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .panel {
+    font-size: 1.125rem;
   }
   .speaker-container {
     display: flex;
@@ -490,8 +553,11 @@ footer .email-modal {
   }
   .agenda-item {
     margin: 0.75rem 30px;
-    width: 30%;
+    width: 32%;
     min-width: 286px;
+  }
+  .agenda-item.bonus {
+    width: 35%;
   }
   .speaker-container {
     margin: 30px 0;
@@ -535,7 +601,7 @@ footer .email-modal {
   .agenda-item {
     margin: 1.5rem 30px;
   }
-  .agenda-item h4, .agenda-item p {
+  .agenda-item h4 {
     font-size: 1.25rem
   }
 }
