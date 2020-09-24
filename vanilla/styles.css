@@ -325,6 +325,23 @@ a.nichole-link {
   background-size: 140%;
   background-position: -43px -48px;
 }
+.phong {
+  background-image: url("./resources/speakers/day_four/Phong.PNG");
+  background-position-y: 0px;
+}
+.priya {
+  background-image: url("./resources/speakers/day_four/Priya_Shukla.jpg");
+  background-position: -31px -97px;
+  background-size: 111%;
+}
+.vetri {
+  background-image: url("./resources/speakers/day_four/Vetri.jpg");
+  background-position-y: 0;
+}
+.jason {
+  background-image: url("./resources/speakers/day_four/Jason_Ward_Keynote.jpeg");
+  background-position-y: -20px;
+}
 /* ************** */
 /*  ** Donors **  */
 /* ************** */
