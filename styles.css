@@ -212,6 +212,9 @@ div.speakers {
   margin: 15px 0 5px;
   font-size: 1.25rem;
 }
+.speaker-container a.link-agenda {
+  color: #fff;
+}
 .speaker-container p {
   line-height: 1.5rem;
   font-size: 1.05rem;
@@ -505,6 +508,9 @@ footer .email-modal {
     margin: 15px 0 5px;
     font-size: 1.35rem;
   }
+  .speaker-container a.link-agenda {
+    font-size: 1.25rem;
+  }
   .speaker-container p {
     line-height: 1.75rem;
     font-size: 1.25rem;
@@ -751,6 +757,9 @@ footer .email-modal {
   .speaker-container h3 {
     margin: 20px 0 0;
     font-size: 1.45rem;
+  }
+  .speaker-container a.link-agenda {
+    margin-top: 3px;
   }
   .speaker-container p {
     line-height: 1.65rem;
