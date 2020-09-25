@@ -212,6 +212,9 @@ div.speakers {
   margin: 15px 0 5px;
   font-size: 1.25rem;
 }
+.speaker-container a.link-agenda {
+  color: #fff;
+}
 .speaker-container p {
   line-height: 1.5rem;
   font-size: 1.05rem;
@@ -324,6 +327,23 @@ a.nichole-link {
   background-image: url("./resources/speakers/day_three/jeanette_pirlo.jpeg");
   background-size: 140%;
   background-position: -43px -48px;
+}
+.phong {
+  background-image: url("./resources/speakers/day_four/Phong.PNG");
+  background-position-y: 0px;
+}
+.priya {
+  background-image: url("./resources/speakers/day_four/Priya_Shukla.jpg");
+  background-position: -31px -97px;
+  background-size: 111%;
+}
+.vetri {
+  background-image: url("./resources/speakers/day_four/Vetri.jpg");
+  background-position-y: 0;
+}
+.jason {
+  background-image: url("./resources/speakers/day_four/Jason_Ward_Keynote.jpeg");
+  background-position-y: -20px;
 }
 /* ************** */
 /*  ** Donors **  */
@@ -487,6 +507,9 @@ footer .email-modal {
   .speaker-container h3 {
     margin: 15px 0 5px;
     font-size: 1.35rem;
+  }
+  .speaker-container a.link-agenda {
+    font-size: 1.25rem;
   }
   .speaker-container p {
     line-height: 1.75rem;
@@ -734,6 +757,9 @@ footer .email-modal {
   .speaker-container h3 {
     margin: 20px 0 0;
     font-size: 1.45rem;
+  }
+  .speaker-container a.link-agenda {
+    margin-top: 3px;
   }
   .speaker-container p {
     line-height: 1.65rem;
