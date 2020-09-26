@@ -475,16 +475,16 @@ footer .email-modal {
     padding: 2px 10px 3px;
   }
   ul li:nth-child(1) a {
-    box-shadow: -3px 3px 6px #7a4b1d, 3px -3px 6px #fc9d3b;
+    box-shadow: -2px 2px 6px #7a4b1d, 2px -2px 6px #fc9d3b;
   }
   ul li:nth-child(2) a {
-    box-shadow: -3px 3px 6px #783a2e, 3px -3px 6px #fa785f;
+    box-shadow: -2px 2px 6px #783a2e, 2px -2px 6px #fa785f;
   }
   ul li:nth-child(3) a {
-    box-shadow: 3px 3px 6px #5e7c6c, -3px -3px 6px #c4ffe0;
+    box-shadow: 2px 2px 6px #5e7c6c, -2px -2px 6px #c4ffe0;
   }
   ul li:nth-child(4) a {
-    box-shadow: 3px 3px 6px #596534, -3px -3px 6px #b9d16c;
+    box-shadow: 2px 2px 6px #596534, -2px -2px 6px #b9d16c;
   }
   .about-head {
     margin: 20px 0 15px;
