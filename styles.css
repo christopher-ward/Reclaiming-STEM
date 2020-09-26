@@ -6,13 +6,50 @@ body {
 header {
   background-color: #fff;
   display: flex;
-  justify-content: space-around;
+  flex-flow: column;
+  justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 12vh;
+  min-height: 100px;
 }
-header .mobile-logo {
+header .logo {
   width: 32%;
   max-width: 120px;
+  margin-top: -9px;
+}
+header nav ul {
+  display: flex;
+  margin: 1px 0 1px;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  margin: 0px 5px;
+  padding: 0px 0;
+}
+ul li a {
+  color: #fff;
+  text-decoration-line: none;
+  font-weight: 500;
+  font-size: 1.025rem;
+  padding: 2px 9px 3px;
+  border-radius: 8px;
+}
+ul li:nth-child(1) a {
+  background: #bb742c;
+  box-shadow: -1px 1px 1px #7a4b1d, 1px -1px 1px #fc9d3b;
+}
+ul li:nth-child(2) a {
+  background: #b95946;
+  box-shadow: -1px 1px 1px #783a2e, 1px -1px 1px #fa785f;
+}
+ul li:nth-child(3) a {
+  background: #91bea6;
+  box-shadow: 1px 1px 1px #5e7c6c, -1px -1px 1px #c4ffe0;
+}
+ul li:nth-child(4) a {
+  background-color: #899b50;
+  box-shadow: 1px 1px 1px #596534, -1px -1px 1px #b9d16c;
 }
 /* ******************* */
 /*  ** About Conf. **  */
@@ -419,12 +456,35 @@ footer .email-modal {
 /* *************** */
 @media only screen and (min-width: 768px) {
   header {
-    height: 11vh;
-    max-height: 120px;
+    height: 14vh;
+    max-height: 138px;
   }
-  header .mobile-logo {
+  header .logo {
     width: 22%;
-    max-width: 190px;
+    max-width: 162px;
+  }
+  header nav ul {
+    margin: 0px 0 3px;
+  }
+  nav ul li {
+    padding: 0px;
+    margin: 5px 10px;
+  }
+  ul li a {
+    font-size: 1.15rem;
+    padding: 2px 10px 3px;
+  }
+  ul li:nth-child(1) a {
+    box-shadow: -3px 3px 6px #7a4b1d, 3px -3px 6px #fc9d3b;
+  }
+  ul li:nth-child(2) a {
+    box-shadow: -3px 3px 6px #783a2e, 3px -3px 6px #fa785f;
+  }
+  ul li:nth-child(3) a {
+    box-shadow: 3px 3px 6px #5e7c6c, -3px -3px 6px #c4ffe0;
+  }
+  ul li:nth-child(4) a {
+    box-shadow: 3px 3px 6px #596534, -3px -3px 6px #b9d16c;
   }
   .about-head {
     margin: 20px 0 15px;
@@ -519,11 +579,15 @@ footer .email-modal {
 }
 @media only screen and (min-width: 992px) {
   header {
-    height: 10vh;
+    height: 12vh;
+    max-height: 165px;
   }
-  header .mobile-logo {
-    width: 21%;
-    max-width: 200px;
+  header .logo {
+    width: 20%;
+    max-width: 190px;
+  }
+  header nav {
+    margin: 4px 0 0;
   }
   .about-head {
     margin: 50px 0 30px;
@@ -631,8 +695,9 @@ footer .email-modal {
 @media only screen and (orientation: landscape) {
   header {
     height: 16vh;
+    min-height: 90px;
   }
-  header .mobile-logo {
+  header .logo {
     width: 15%;
   }
   .about-head {
@@ -676,8 +741,7 @@ footer .email-modal {
 }
 @media only screen and (orientation: landscape) and (min-width: 720px) {
   header {
-    height: 18vh;
-    max-height: 75px;
+    height: 23vh;
   }
   .about-head {
     margin: 0;
@@ -687,8 +751,12 @@ footer .email-modal {
   }
 }
 @media only screen and (orientation: landscape) and (min-width: 768px) {
-  header .mobile-logo {
+  header {
+    height: 26vh;
+  }
+  header .logo {
     width: 13%;
+    margin-top: -2px;
   }
   .about-head h1 {
     font-size: 1.65rem;
@@ -718,7 +786,7 @@ footer .email-modal {
   header {
     height: 15vh;
   }
-  header .mobile-logo {
+  header .logo {
     width: 12%;
   }
   .about-head {
@@ -769,11 +837,21 @@ footer .email-modal {
 }
 @media only screen and (orientation: landscape) and (min-width: 1200px) {
   header {
-    height: 11vh;
-    max-height: 102px;
+    height: 14vh;
+    min-height: 132px;
+    max-height: 205px;
   }
-  header .mobile-logo {
+  header .logo {
     width: 11%;
+    min-width: 150px;
+    max-width: 182px;
+  }
+  header nav ul {
+    padding: 0;
+  }
+  nav ul li {
+    margin: 0 6px;
+    padding: 2px 5px 7px;
   }
   .about-head {
     margin: 35px 0 25px;
@@ -809,5 +887,13 @@ footer .email-modal {
     line-height: 1.85rem;
     font-size: 1.45rem;
     width: 710px;
+  }
+}
+@media only screen and (orientation: landscape) and (min-width: 1720px) {
+  header {
+    min-height: 153px;
+  }
+  header .logo {
+    margin-top: -7px;
   }
 }
