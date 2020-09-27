@@ -129,7 +129,12 @@ div.conf-agenda {
 }
 .day-head h3 {
   font-size: 1.4rem;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 1.5rem;
+  padding: 0.25rem 4.5rem;
+  border: solid #d3eae1;
+  border-right: unset;
+  border-left: unset;
+  text-align: center;
 }
 .day-head span {
   font-size: 1.15rem;
@@ -528,13 +533,14 @@ footer .email-modal {
     font-size: 1.35rem;
   }
   .day-head h3 {
-  	font-size: 1.75rem;
+    font-size: 1.75rem;
+    padding: 0.5rem 9rem;
   }
   .agenda-item {
     margin-top: 0.5%;
   }
   .agenda-item .time {
-    font-size: 1.75rem;
+    font-size: 1.7rem;
   }
   .agenda-item h4 {
     font-size: 1.3rem;
@@ -631,6 +637,8 @@ footer .email-modal {
   }
   .day-head h3 {
     font-size: 1.5rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
     margin-bottom: 0.75rem;
   }
   .agenda-content {
@@ -678,6 +686,8 @@ footer .email-modal {
   }
   .day-head h3 {
     font-size: 1.5rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
   }
   .day-head span {
     font-size: 1.3rem
