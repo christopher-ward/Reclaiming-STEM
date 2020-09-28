@@ -129,7 +129,12 @@ div.conf-agenda {
 }
 .day-head h3 {
   font-size: 1.4rem;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 1.5rem;
+  padding: 0.25rem 4.5rem;
+  border: solid #d3eae1;
+  border-right: unset;
+  border-left: unset;
+  text-align: center;
 }
 .day-head span {
   font-size: 1.15rem;
@@ -199,6 +204,12 @@ div.conf-agenda {
   font-weight: 600;
   font-size: 1.05rem;
 }
+.agenda-item a:focus {
+  outline-color: #6f362b;
+  outline-style: dashed;
+  outline-width: 0.2rem;
+  outline-offset: 2px;
+}
 .last-content {
   margin: inherit;
 }
@@ -215,6 +226,35 @@ div.conf-agenda {
   text-align: center;
   line-height: 1.75;
   margin-top: 0.75rem;
+}
+.last-item h4 a {
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 600;
+  font-style: normal;
+  margin: 16px 56px 0;
+  padding: 8px 0px;
+  text-decoration-line: none;
+  background: #ba5946;
+  border-radius: 20px;
+  box-shadow:  8px 8px 14px #9e4c3c, -8px -8px 14px #d66651;
+}
+.last-item h4 a:hover {
+  font-size: 1.325rem;
+  transform: scale(1.01);
+  box-shadow: 4px 4px 7px #9e4c3c, -4px -4px 7px #d66651;
+}
+.last-item h4 a:focus {
+  outline-color: #6f362b;
+  outline-style: dashed;
+  outline-width: 0.25rem;
+  outline-offset: 15px;
+}
+.last-item h4 a:active {
+  font-size: 1.3rem;
+  transform: scale(1.02);
+  box-shadow: inset 8px 8px 14px #9e4c3c, inset -8px -8px 14px #d66651;
+  outline-offset: 14px;
 }
 /* **************** */
 /*  ** Speakers **  */
@@ -366,7 +406,7 @@ a.nichole-link {
   background-position: -43px -48px;
 }
 .phong {
-  background-image: url("./resources/speakers/day_four/Phong.PNG");
+  background-image: url("./resources/speakers/day_four/Phong.jpeg");
   background-position-y: 0px;
 }
 .priya {
@@ -376,7 +416,7 @@ a.nichole-link {
 }
 .vetri {
   background-image: url("./resources/speakers/day_four/Vetri.jpg");
-  background-position-y: 0;
+  background-position-y: -94px;
 }
 .jason {
   background-image: url("./resources/speakers/day_four/Jason_Ward_Keynote.jpeg");
@@ -528,13 +568,14 @@ footer .email-modal {
     font-size: 1.35rem;
   }
   .day-head h3 {
-  	font-size: 1.75rem;
+    font-size: 1.75rem;
+    padding: 0.5rem 9rem;
   }
   .agenda-item {
     margin-top: 0.5%;
   }
   .agenda-item .time {
-    font-size: 1.75rem;
+    font-size: 1.7rem;
   }
   .agenda-item h4 {
     font-size: 1.3rem;
@@ -631,6 +672,8 @@ footer .email-modal {
   }
   .day-head h3 {
     font-size: 1.5rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
     margin-bottom: 0.75rem;
   }
   .agenda-content {
@@ -678,6 +721,8 @@ footer .email-modal {
   }
   .day-head h3 {
     font-size: 1.5rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
   }
   .day-head span {
     font-size: 1.3rem
