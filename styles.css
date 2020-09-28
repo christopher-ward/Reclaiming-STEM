@@ -39,17 +39,34 @@ ul li:nth-child(1) a {
   background: #bb742c;
   box-shadow: -1px 1px 1px #7a4b1d, 1px -1px 1px #fc9d3b;
 }
+ul li:nth-child(1) a:focus {
+  outline-color: #966b0d;
+}
 ul li:nth-child(2) a {
   background: #b95946;
   box-shadow: -1px 1px 1px #783a2e, 1px -1px 1px #fa785f;
+}
+ul li:nth-child(2) a:focus {
+  outline-color: #c7371b;
 }
 ul li:nth-child(3) a {
   background: #91bea6;
   box-shadow: 1px 1px 1px #5e7c6c, -1px -1px 1px #c4ffe0;
 }
+ul li:nth-child(3) a:focus {
+  outline-color: #6e9283;
+}
 ul li:nth-child(4) a {
   background-color: #899b50;
   box-shadow: 1px 1px 1px #596534, -1px -1px 1px #b9d16c;
+}
+ul li:nth-child(4) a:focus {
+  outline-color: #8c9f52;
+}
+ul li a:focus {
+  outline-style: dashed;
+  outline-width: 0.2rem;
+  outline-offset: 2px;
 }
 /* ******************* */
 /*  ** About Conf. **  */
@@ -102,6 +119,12 @@ main .conf {
   font-size: 1.05rem;
   font-weight: 500;
   color: #fff;
+}
+.conf-about a.conduct:focus {
+  outline-color: #432a11;
+  outline-style: dashed;
+  outline-width: 0.2rem;
+  outline-offset: 6px;
 }
 /* ************** */
 /*  ** Agenda **  */
@@ -205,7 +228,7 @@ div.conf-agenda {
   font-size: 1.05rem;
 }
 .agenda-item a:focus {
-  outline-color: #6f362b;
+  outline-color: #6b2e22;
   outline-style: dashed;
   outline-width: 0.2rem;
   outline-offset: 2px;
@@ -288,6 +311,12 @@ div.speakers {
 .speaker-container h3 {
   margin: 15px 0 5px;
   font-size: 1.25rem;
+}
+.speaker-container a:focus {
+  outline-color: #26322d;
+  outline-style: dashed;
+  outline-width: 0.2rem;
+  outline-offset: 2px;
 }
 .speaker-container a.link-agenda {
   color: #fff;
@@ -439,13 +468,19 @@ div.donors {
   text-align: center;
   font-size: 1.15rem;
   margin: 15px 0;
-  line-height: 1.65rem;
+  line-height: 1.75rem;
 }
 .donors p:nth-child(4) {
   width: 316px;
 }
 .donors p:nth-child(9), .donors p:nth-child(10) {
   font-weight: 500;
+}
+.donors p:last-child a:focus {
+  outline-color: #171c06;
+  outline-style: dashed;
+  outline-width: 2px;
+  outline-offset: 2px;
 }
 div.about-us {
   background-color:#dbb052;
@@ -526,6 +561,9 @@ footer .email-modal {
   ul li:nth-child(4) a {
     box-shadow: 2px 2px 6px #596534, -2px -2px 6px #b9d16c;
   }
+  ul li a:focus {
+    outline-offset: 6px;
+  }
   .about-head {
     margin: 20px 0 15px;
   }
@@ -551,6 +589,10 @@ footer .email-modal {
   }
   .conf-about a.conduct {
     font-size: 1.35rem;
+  }
+  .conf-about a.conduct:focus {
+    outline-offset: 10px;
+    outline-width: 5px;
   }
   .agenda {
     margin: 3rem 0 2.5rem;
@@ -897,6 +939,9 @@ footer .email-modal {
   nav ul li {
     margin: 0 6px;
     padding: 2px 5px 7px;
+  }
+  ul li a:focus {
+    outline-offset: 8px;
   }
   .about-head {
     margin: 35px 0 25px;
