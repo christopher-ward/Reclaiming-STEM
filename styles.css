@@ -204,6 +204,12 @@ div.conf-agenda {
   font-weight: 600;
   font-size: 1.05rem;
 }
+.agenda-item a:focus {
+  outline-color: #6f362b;
+  outline-style: dashed;
+  outline-width: 0.2rem;
+  outline-offset: 2px;
+}
 .last-content {
   margin: inherit;
 }
@@ -220,6 +226,35 @@ div.conf-agenda {
   text-align: center;
   line-height: 1.75;
   margin-top: 0.75rem;
+}
+.last-item h4 a {
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 600;
+  font-style: normal;
+  margin: 16px 56px 0;
+  padding: 8px 0px;
+  text-decoration-line: none;
+  background: #ba5946;
+  border-radius: 20px;
+  box-shadow:  8px 8px 14px #9e4c3c, -8px -8px 14px #d66651;
+}
+.last-item h4 a:hover {
+  font-size: 1.325rem;
+  transform: scale(1.01);
+  box-shadow: 4px 4px 7px #9e4c3c, -4px -4px 7px #d66651;
+}
+.last-item h4 a:focus {
+  outline-color: #6f362b;
+  outline-style: dashed;
+  outline-width: 0.25rem;
+  outline-offset: 15px;
+}
+.last-item h4 a:active {
+  font-size: 1.3rem;
+  transform: scale(1.02);
+  box-shadow: inset 8px 8px 14px #9e4c3c, inset -8px -8px 14px #d66651;
+  outline-offset: 14px;
 }
 /* **************** */
 /*  ** Speakers **  */
