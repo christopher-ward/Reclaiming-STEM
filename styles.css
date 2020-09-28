@@ -254,7 +254,7 @@ div.conf-agenda {
   font-size: 1.3rem;
   transform: scale(1.02);
   box-shadow: inset 8px 8px 14px #9e4c3c, inset -8px -8px 14px #d66651;
-  outline: none;
+  outline-offset: 14px;
 }
 /* **************** */
 /*  ** Speakers **  */
