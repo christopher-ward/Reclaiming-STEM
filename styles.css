@@ -692,12 +692,14 @@ footer .email-modal {
   }
   .donors p {
     font-size: 1.35rem;
+    margin: 1.5rem 0;
   }
   .donors p:nth-child(4) {
     width: 518px;
   }
   .donors p:nth-child(9) {
     width: 590px;
+    margin: 15px 0;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -798,6 +800,7 @@ footer .email-modal {
   }
   .donors p:nth-child(9) {
     width: 635px;
+    margin: 3rem 0 1rem;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -1043,9 +1046,7 @@ footer .email-modal {
     width: 710px;
   }
   div.donors {
-    height: 100vh;
-    justify-content: center;
-    padding: 0;
+    padding: 25px 0 30px;
   }
   .donors h2 {
     font-size: 2.55rem;
@@ -1061,7 +1062,7 @@ footer .email-modal {
     width: 680px;
   }
   .donors p:last-child a {
-    margin-top: 25px;
+    margin-top: 30px;
   }
 }
 @media only screen and (orientation: landscape) and (min-width: 1720px) {
