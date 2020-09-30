@@ -459,8 +459,10 @@ div.donors {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px 0;
 }
 .donors h2 {
+  font-size: 1.8rem;
   text-align: center;
   margin: 20px 0;
 }
@@ -473,14 +475,40 @@ div.donors {
 .donors p:nth-child(4) {
   width: 316px;
 }
+.donors p:nth-child(9) {
+  width: 462px;
+}
 .donors p:nth-child(9), .donors p:nth-child(10) {
   font-weight: 500;
+}
+.donors p:last-child a {
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  margin: 20px 90px 0;
+  padding: 8px 0px;
+  text-decoration-line: none;
+  background: #899b51;
+  border-radius: 20px;
+  box-shadow:  8px 8px 14px #748445, -8px -8px 14px #9eb25d;
+}
+.donors p:last-child a:hover {
+  font-size: 1.325rem;
+  transform: scale(1.01);
+  box-shadow: 4px 4px 7px #748445, -4px -4px 7px #9eb25d;
+}
+.donors p:last-child a:active {
+  font-size: 1.3rem;
+  transform: scale(1.02);
+  box-shadow: inset 8px 8px 14px #748445, inset -8px -8px 14px #9eb25d;
 }
 .donors p:last-child a:focus {
   outline-color: #171c06;
   outline-style: dashed;
-  outline-width: 2px;
-  outline-offset: 2px;
+  outline-width: 4px;
+  outline-offset: 12px;
 }
 div.about-us {
   background-color:#dbb052;
@@ -659,6 +687,18 @@ footer .email-modal {
     font-size: 1.25rem;
     width: 505px;
   }
+  .donors h2 {
+    font-size: 2rem;
+  }
+  .donors p {
+    font-size: 1.35rem;
+  }
+  .donors p:nth-child(4) {
+    width: 518px;
+  }
+  .donors p:nth-child(9) {
+    width: 590px;
+  }
 }
 @media only screen and (min-width: 992px) {
   header {
@@ -747,6 +787,18 @@ footer .email-modal {
     font-size: 1.35rem;
     width: 595px;
   }
+  .donors h2 {
+    font-size: 2.15rem;
+  }
+  .donors p {
+    font-size: 1.45rem;
+  }
+  .donors p:nth-child(4) {
+    width: 595px;
+  }
+  .donors p:nth-child(9) {
+    width: 635px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .conf-about p {
@@ -824,6 +876,12 @@ footer .email-modal {
     line-height: 1.5rem;
     font-size: 1.05rem;
     width: 456px;
+  }
+  div.donors {
+    padding: 15px 0 20px;
+  }
+  .donors h2 {
+    font-size: 1.8rem;;
   }
 }
 @media only screen and (orientation: landscape) and (min-width: 720px) {
@@ -921,6 +979,12 @@ footer .email-modal {
     font-size: 1.2rem;
     width: 585px;
   }
+  div.donors {
+    padding: 20px 0 25px;
+  }
+  .donors h2 {
+    font-size: 2.45rem;
+  }
 }
 @media only screen and (orientation: landscape) and (min-width: 1200px) {
   header {
@@ -977,6 +1041,27 @@ footer .email-modal {
     line-height: 1.85rem;
     font-size: 1.45rem;
     width: 710px;
+  }
+  div.donors {
+    height: 100vh;
+    justify-content: center;
+    padding: 0;
+  }
+  .donors h2 {
+    font-size: 2.55rem;
+  }
+  .donors p {
+    font-size: 1.55rem;
+    line-height: 1.9rem;
+  }
+  .donors p:nth-child(4) {
+    width: 635px;
+  }
+  .donors p:nth-child(9) {
+    width: 680px;
+  }
+  .donors p:last-child a {
+    margin-top: 25px;
   }
 }
 @media only screen and (orientation: landscape) and (min-width: 1720px) {
