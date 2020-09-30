@@ -1062,7 +1062,7 @@ footer .email-modal {
     width: 680px;
   }
   .donors p:last-child a {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 }
 @media only screen and (orientation: landscape) and (min-width: 1720px) {
