@@ -642,7 +642,7 @@ footer .email-modal {
     padding: 0.5rem 9rem;
   }
   .agenda-item {
-    margin-top: 0.5%;
+    margin-top: 30px 100px;
   }
   .agenda-item .time {
     font-size: 1.7rem;
@@ -652,6 +652,10 @@ footer .email-modal {
   }
   .agenda-item h4 span {
     font-size: 1.25rem;
+  }
+  .agenda-item .breakout {
+    margin: 15px 0;
+    line-height: 1.65rem;
   }
   .agenda-item h5 {
     font-size: 1.15rem;
