@@ -477,6 +477,51 @@ a.nichole-link {
   background-image: url("./resources/speakers/day_four/Jason_Ward_Keynote.jpeg");
   background-position-y: -20px;
 }
+/* ****************** */
+/*  ** Comedians **  */
+/* ****************** */
+.comedians {
+  background-color: #f4f4f4;
+}
+.perf-alt {
+  background-color: #dbb052;
+}
+.comedians h2 {
+  font-size: 1.8rem;
+  margin: 30px 0 10px;
+  text-align: center;
+}
+.comedians h2, .comedians .speaker-container, .comedians .speaker-container a {
+  color: #484847;
+}
+.anu {
+  background-image: url("./resources/comedians/anupreksha.jpg");
+  background-position: -123px -15px;
+  background-size: 168%;
+}
+.thien {
+  background-image: url("./resources/comedians/thienthanh.jpg");
+  background-position-y: -52px;
+}
+.margaret {
+  background-image: url("./resources/comedians/margaret.jpg");
+  background-position-x: 0;
+}
+.briley {
+  background-image: url("./resources/comedians/briley.jpeg");
+  background-position: -70px -198px;
+  background-size: 125%;
+}
+.eo {
+  background-image: url("./resources/comedians/eo.jpg");
+  background-position: -40px -109px;
+  background-size: 115%;
+}
+.lorena {
+  background-image: url("./resources/comedians/lorena.jpeg");
+  background-position: -10px 0px;
+  background-size: 105%;
+}
 /* ************** */
 /*  ** Donors **  */
 /* ************** */
@@ -717,6 +762,10 @@ footer .email-modal {
     font-size: 1.25rem;
     width: 505px;
   }
+  .comedians h2 {
+    font-size: 2rem;
+    margin: 40px 0 15px;
+  }
   .donors h2 {
     font-size: 2rem;
   }
@@ -822,6 +871,10 @@ footer .email-modal {
     font-size: 1.35rem;
     width: 595px;
   }
+  .comedians h2 {
+    font-size: 2.15rem;
+    margin: 50px 0 25px;
+  }
   .donors h2 {
     font-size: 2.15rem;
   }
@@ -912,6 +965,10 @@ footer .email-modal {
     line-height: 1.5rem;
     font-size: 1.05rem;
     width: 456px;
+  }
+  .comedians h2 {
+    font-size: 1.8rem;
+    margin: 15px 0 5px;
   }
   div.donors {
     padding: 15px 0 20px;
@@ -1015,6 +1072,10 @@ footer .email-modal {
     font-size: 1.2rem;
     width: 585px;
   }
+  .comedians h2 {
+    font-size: 2.45rem;
+    margin: 25px 0 10px;
+  }
   div.donors {
     padding: 20px 0 25px;
   }
@@ -1077,6 +1138,13 @@ footer .email-modal {
     line-height: 1.85rem;
     font-size: 1.45rem;
     width: 710px;
+  }
+  .comedians h2 {
+    font-size: 2.55rem;
+    margin: 30px 0 15px;
+  }
+  .comedians .speaker-container p {
+    font-weight: 400;
   }
   div.donors {
     padding: 25px 0 30px;
