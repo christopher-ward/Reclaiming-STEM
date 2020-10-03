@@ -455,6 +455,24 @@ a.nichole-link {
   background-image: url("./resources/speakers/day_four/Vetri.jpg");
   background-position-y: -94px;
 }
+.lourdes {
+  background-image: url("./resources/speakers/day_four/lourdes_vera.jpg");
+  background-position-x: 0;
+}
+.leslie {
+  background-image: url("./resources/speakers/day_four/leslie.JPG");
+  background-position: -15px -48px;
+  background-size: 105%;
+}
+.bala {
+  background-image: url("./resources/speakers/day_four/bala.jpg");
+  background-position-x: -100px;
+}
+.tam {
+  background-image: url("./resources/speakers/day_four/Tamara_Marcus-East_Coast_Director.jpg");
+  background-position: -131px -32px;
+  background-size: 172%;
+}
 .jason {
   background-image: url("./resources/speakers/day_four/Jason_Ward_Keynote.jpeg");
   background-position-y: -20px;
