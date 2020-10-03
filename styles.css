@@ -184,10 +184,10 @@ div.conf-agenda {
   font-size: 1.15rem;
 }
 .agenda-item h4 {
-  margin: 0.5rem 0;
+  margin: 0.75rem 0;
   text-align: center;
   width: 340px;
-  font-size: 1.2rem;
+  font-size: 1.45rem;
 }
 .agenda-item h4 span {
   font-style: italic;
@@ -237,7 +237,7 @@ div.conf-agenda {
   margin: inherit;
 }
 .last-item h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin: 0.75rem 0;
   padding: 0.25rem 4rem;
   margin-bottom: 1.5rem;
@@ -245,35 +245,43 @@ div.conf-agenda {
   border-right: unset;
   border-left: unset;
 }
-.last-item h4 {
+.last-item h4 a {
+  display: block;
+  line-height: 1.5rem;
+}
+.last-item h4 a:first-of-type {
+  margin-top: 10px;
+}
+.last-item h5 {
   text-align: center;
   line-height: 1.75;
-  margin-top: 0.75rem;
+  margin: 18px 0 0;
+  font-size: 1.5rem;
 }
-.last-item h4 a {
+.last-item h5 a {
   display: block;
   font-size: 1.35rem;
   font-weight: 600;
   font-style: normal;
-  margin: 16px 56px 0;
-  padding: 8px 0px;
+  margin: 0;
+  padding: 8px 26px;
   text-decoration-line: none;
   background: #ba5946;
   border-radius: 20px;
   box-shadow:  8px 8px 14px #9e4c3c, -8px -8px 14px #d66651;
 }
-.last-item h4 a:hover {
+.last-item h5 a:hover {
   font-size: 1.325rem;
   transform: scale(1.01);
   box-shadow: 4px 4px 7px #9e4c3c, -4px -4px 7px #d66651;
 }
-.last-item h4 a:focus {
+.last-item h5 a:focus {
   outline-color: #6f362b;
   outline-style: dashed;
   outline-width: 0.25rem;
   outline-offset: 15px;
 }
-.last-item h4 a:active {
+.last-item h5 a:active {
   font-size: 1.3rem;
   transform: scale(1.02);
   box-shadow: inset 8px 8px 14px #9e4c3c, inset -8px -8px 14px #d66651;
@@ -447,9 +455,72 @@ a.nichole-link {
   background-image: url("./resources/speakers/day_four/Vetri.jpg");
   background-position-y: -94px;
 }
+.lourdes {
+  background-image: url("./resources/speakers/day_four/lourdes_vera.jpg");
+  background-position-x: 0;
+}
+.leslie {
+  background-image: url("./resources/speakers/day_four/leslie.JPG");
+  background-position: -15px -48px;
+  background-size: 105%;
+}
+.bala {
+  background-image: url("./resources/speakers/day_four/bala.jpg");
+  background-position-x: -100px;
+}
+.tam {
+  background-image: url("./resources/speakers/day_four/Tamara_Marcus-East_Coast_Director.jpg");
+  background-position: -131px -32px;
+  background-size: 172%;
+}
 .jason {
   background-image: url("./resources/speakers/day_four/Jason_Ward_Keynote.jpeg");
   background-position-y: -20px;
+}
+/* ****************** */
+/*  ** Comedians **  */
+/* ****************** */
+.comedians {
+  background-color: #f4f4f4;
+}
+.perf-alt {
+  background-color: #dbb052;
+}
+.comedians h2 {
+  font-size: 1.8rem;
+  margin: 30px 0 10px;
+  text-align: center;
+}
+.comedians h2, .comedians .speaker-container, .comedians .speaker-container a {
+  color: #484847;
+}
+.anu {
+  background-image: url("./resources/comedians/anupreksha.jpg");
+  background-position: -123px -15px;
+  background-size: 168%;
+}
+.thien {
+  background-image: url("./resources/comedians/thienthanh.jpg");
+  background-position-y: -52px;
+}
+.margaret {
+  background-image: url("./resources/comedians/margaret.jpg");
+  background-position-x: 0;
+}
+.briley {
+  background-image: url("./resources/comedians/briley.jpeg");
+  background-position: -70px -198px;
+  background-size: 125%;
+}
+.eo {
+  background-image: url("./resources/comedians/eo.jpeg");
+  background-position: -40px -109px;
+  background-size: 115%;
+}
+.lorena {
+  background-image: url("./resources/comedians/lorena.jpeg");
+  background-position: -10px 0px;
+  background-size: 105%;
 }
 /* ************** */
 /*  ** Donors **  */
@@ -642,7 +713,7 @@ footer .email-modal {
     padding: 0.5rem 9rem;
   }
   .agenda-item {
-    margin-top: 0.5%;
+    margin-top: 30px 100px;
   }
   .agenda-item .time {
     font-size: 1.7rem;
@@ -652,6 +723,10 @@ footer .email-modal {
   }
   .agenda-item h4 span {
     font-size: 1.25rem;
+  }
+  .agenda-item .breakout {
+    margin: 15px 0;
+    line-height: 1.65rem;
   }
   .agenda-item h5 {
     font-size: 1.15rem;
@@ -686,6 +761,10 @@ footer .email-modal {
     line-height: 1.75rem;
     font-size: 1.25rem;
     width: 505px;
+  }
+  .comedians h2 {
+    font-size: 2rem;
+    margin: 40px 0 15px;
   }
   .donors h2 {
     font-size: 2rem;
@@ -773,6 +852,9 @@ footer .email-modal {
   .agenda-item.bonus {
     width: 35%;
   }
+  .last-item h4 a {
+    line-height: 1.75rem;
+  }
   .speaker-container {
     margin: 30px 0;
   }
@@ -788,6 +870,10 @@ footer .email-modal {
     line-height: 1.85rem;
     font-size: 1.35rem;
     width: 595px;
+  }
+  .comedians h2 {
+    font-size: 2.15rem;
+    margin: 50px 0 25px;
   }
   .donors h2 {
     font-size: 2.15rem;
@@ -879,6 +965,10 @@ footer .email-modal {
     line-height: 1.5rem;
     font-size: 1.05rem;
     width: 456px;
+  }
+  .comedians h2 {
+    font-size: 1.8rem;
+    margin: 15px 0 5px;
   }
   div.donors {
     padding: 15px 0 20px;
@@ -982,6 +1072,10 @@ footer .email-modal {
     font-size: 1.2rem;
     width: 585px;
   }
+  .comedians h2 {
+    font-size: 2.45rem;
+    margin: 25px 0 10px;
+  }
   div.donors {
     padding: 20px 0 25px;
   }
@@ -1044,6 +1138,13 @@ footer .email-modal {
     line-height: 1.85rem;
     font-size: 1.45rem;
     width: 710px;
+  }
+  .comedians h2 {
+    font-size: 2.55rem;
+    margin: 30px 0 15px;
+  }
+  .comedians .speaker-container p {
+    font-weight: 400;
   }
   div.donors {
     padding: 25px 0 30px;
