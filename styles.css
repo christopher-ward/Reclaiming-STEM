@@ -104,7 +104,7 @@ main .conf {
   line-height: 1.75rem;
 }
 .conf-about p:nth-child(2) {
-  width: 272px;
+  width: 280px;
 }
 .conf-about p:last-of-type {
   margin: 30px 0 10px;
@@ -318,7 +318,7 @@ div.speakers {
 }
 .speaker-container h3 {
   margin: 15px 0 5px;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
 }
 .speaker-container a:focus {
   outline-color: #26322d;
@@ -328,10 +328,11 @@ div.speakers {
 }
 .speaker-container a.link-agenda {
   color: #fff;
+  font-size: 1.1rem;
 }
 .speaker-container p {
   line-height: 1.5rem;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   width: 326px;
 }
 .wilnelia {
