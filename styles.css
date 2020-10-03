@@ -24,7 +24,7 @@ header nav ul {
   list-style: none;
 }
 nav ul li {
-  margin: 0px 5px;
+  margin: 0px 3px;
   padding: 0px 0;
 }
 ul li a {
@@ -32,7 +32,7 @@ ul li a {
   text-decoration-line: none;
   font-weight: 500;
   font-size: 1.025rem;
-  padding: 2px 9px 3px;
+  padding: 2px 7px 3px;
   border-radius: 8px;
 }
 ul li:nth-child(1) a {
@@ -57,15 +57,22 @@ ul li:nth-child(3) a:focus {
   outline-color: #6e9283;
 }
 ul li:nth-child(4) a {
+  background-color: #484847;
+  box-shadow: 1px 1px 1px #3d3d3c, -1px -1px 1px #535352;
+}
+ul li:nth-child(4) a:focus {
+  outline-color: #3c3c39;
+}
+ul li:nth-child(5) a {
   background-color: #899b50;
   box-shadow: 1px 1px 1px #596534, -1px -1px 1px #b9d16c;
 }
-ul li:nth-child(4) a:focus {
+ul li:nth-child(5) a:focus {
   outline-color: #8c9f52;
 }
 ul li a:focus {
   outline-style: dashed;
-  outline-width: 0.2rem;
+  outline-width: 0.15rem;
   outline-offset: 2px;
 }
 /* ******************* */
@@ -659,10 +666,14 @@ footer .email-modal {
     box-shadow: 2px 2px 6px #5e7c6c, -2px -2px 6px #c4ffe0;
   }
   ul li:nth-child(4) a {
+    box-shadow: 2px 2px 6px #3d3d3c, -2px -2px 6px #535352;
+  }
+  ul li:nth-child(5) a {
     box-shadow: 2px 2px 6px #596534, -2px -2px 6px #b9d16c;
   }
   ul li a:focus {
     outline-offset: 6px;
+    outline-width: 0.2rem;
   }
   .about-head {
     margin: 20px 0 15px;
@@ -997,6 +1008,10 @@ footer .email-modal {
     width: 13%;
     margin-top: -2px;
   }
+  ul li a:focus {
+    outline-offset: 4px;
+    outline-width: 0.2rem;
+  }
   .about-head h1 {
     font-size: 1.65rem;
     line-height: 1.85rem;
@@ -1103,7 +1118,7 @@ footer .email-modal {
     padding: 2px 5px 7px;
   }
   ul li a:focus {
-    outline-offset: 8px;
+    outline-offset: 7px;
   }
   .about-head {
     margin: 35px 0 25px;
