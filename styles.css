@@ -36,21 +36,21 @@ ul li a {
   border-radius: 8px;
 }
 ul li:nth-child(1) a {
-  background: #bb742c;
+  background: #784A1C;
   box-shadow: -1px 1px 1px #7a4b1d, 1px -1px 1px #fc9d3b;
 }
 ul li:nth-child(1) a:focus {
   outline-color: #966b0d;
 }
 ul li:nth-child(2) a {
-  background: #b95946;
+  background: #854032;
   box-shadow: -1px 1px 1px #783a2e, 1px -1px 1px #fa785f;
 }
 ul li:nth-child(2) a:focus {
   outline-color: #c7371b;
 }
 ul li:nth-child(3) a {
-  background: #91bea6;
+  background: #365E49;
   box-shadow: 1px 1px 1px #5e7c6c, -1px -1px 1px #c4ffe0;
 }
 ul li:nth-child(3) a:focus {
@@ -64,7 +64,7 @@ ul li:nth-child(4) a:focus {
   outline-color: #3c3c39;
 }
 ul li:nth-child(5) a {
-  background-color: #899b50;
+  background-color: #515A30;
   box-shadow: 1px 1px 1px #596534, -1px -1px 1px #b9d16c;
 }
 ul li:nth-child(5) a:focus {
