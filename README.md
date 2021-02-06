@@ -1,2 +1,2 @@
 # Reclaiming-STEM
-Reclaiming STEM Landing Page
+Reclaiming STEM 2020 Workshop Landing Page
