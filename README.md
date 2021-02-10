@@ -1,4 +1,4 @@
-# Reclaiming STEM 2020 Workshop Landing Page
+# Reclaiming STEM 2020 Workshop Info Webpage
 ## Webpage for Workshop Participants
 - Learn about Reclaiming STEM
 - View current workshop agenda
