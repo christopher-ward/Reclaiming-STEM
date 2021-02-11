@@ -37,35 +37,35 @@ ul li a {
 }
 ul li:nth-child(1) a {
   background: #784A1C;
-  box-shadow: -1px 1px 1px #7a4b1d, 1px -1px 1px #fc9d3b;
+  box-shadow: -1px 1px 3px #7a4b1d, -1px 1px 3px #fc9d3b;
 }
 ul li:nth-child(1) a:focus {
   outline-color: #966b0d;
 }
 ul li:nth-child(2) a {
   background: #854032;
-  box-shadow: -1px 1px 1px #783a2e, 1px -1px 1px #fa785f;
+  box-shadow: -1px 1px 3px #783a2e, -1px 1px 3px #fa785f;
 }
 ul li:nth-child(2) a:focus {
   outline-color: #c7371b;
 }
 ul li:nth-child(3) a {
   background: #365E49;
-  box-shadow: 1px 1px 1px #5e7c6c, -1px -1px 1px #c4ffe0;
+  box-shadow: -1px 1px 3px #5e7c6c, -1px 1px 3px #c4ffe0;
 }
 ul li:nth-child(3) a:focus {
   outline-color: #6e9283;
 }
 ul li:nth-child(4) a {
   background-color: #484847;
-  box-shadow: 1px 1px 1px #3d3d3c, -1px -1px 1px #535352;
+  box-shadow: -1px 1px 3px #3d3d3c, -1px 1px 3px #535352;
 }
 ul li:nth-child(4) a:focus {
   outline-color: #3c3c39;
 }
 ul li:nth-child(5) a {
   background-color: #515A30;
-  box-shadow: 1px 1px 1px #596534, -1px -1px 1px #b9d16c;
+  box-shadow: -1px 1px 3px #596534, -1px 1px 3px #b9d16c;
 }
 ul li:nth-child(5) a:focus {
   outline-color: #8c9f52;
