@@ -318,6 +318,7 @@ div.speakers {
   font-size: 1.8rem;
   margin: 30px 0 10px;
   text-align: center;
+  text-shadow: -2px 2px 5px #000;
 }
 .speaker-image {
   height: 300px;
